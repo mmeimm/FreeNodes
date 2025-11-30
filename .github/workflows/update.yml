@@ -1,9 +1,8 @@
 name: Regular Update
 
 on:
-  schedule:
-    - cron: "0 4 * * *" # Run everyday at 12am in Beijing time
-
+  workflow_dispatch:
+  
 jobs:
   update:
     runs-on: ubuntu-24.04
