@@ -17,1154 +17,113 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: DE德国(mibei77.com 米贝节点分享)
-  password: XUMTygEM1jVYIvysXKqA5T
-  port: 443
-  server: hackney-latest-strike.freesocks.work
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: SG新加坡(mibei77.com 米贝节点分享)
-  network: ws
-  port: 443
-  server: 20.6.12.145
-  servername: sni.skylee4.cloudns.ch
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sni.skylee4.cloudns.ch
-    path: /proxyip=ProxyIP.CMLiussss.net
-- name: US美国(mibei77.com 米贝节点分享)
-  network: ws
-  port: 8880
-  server: 188.164.248.30
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime26.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_1
-  network: ws
-  port: 8880
-  server: 94.140.0.40
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime26.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_2
-  network: ws
-  port: 2053
-  server: 162.159.44.66
-  servername: fu.baiproxy.us.ci
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    headers:
-      Host: fu.baiproxy.us.ci
-    path: /?ed=2560
-- name: US美国(mibei77.com 米贝节点分享)_3
-  password: humanity
-  port: 443
-  server: www.ignitelimit.com
-  skip-cert-verify: false
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: US美国(mibei77.com 米贝节点分享)_4
-  network: ws
-  port: 443
-  server: 162.159.44.198
-  servername: fu.baiproxy.us.ci
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    headers:
-      Host: fu.baiproxy.us.ci
-    path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: US美国(mibei77.com 米贝节点分享)_5
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  type: ss
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_6
-  network: ws
-  port: 8880
-  server: 45.153.7.40
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime11.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- cipher: chacha20-ietf-poly1305
-  name: US美国(mibei77.com 米贝节点分享)_7
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_8
-  network: ws
-  port: 8880
-  server: 188.164.248.50
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime26.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_9
-  network: ws
-  port: 8880
-  server: 188.164.248.40
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime26.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_10
-  network: ws
-  port: 8880
-  server: 192.200.160.50
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime43.workers.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_11
-  network: ws
-  port: 8880
-  server: 109.176.239.50
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime03.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- cipher: chacha20-ietf-poly1305
-  name: US美国(mibei77.com 米贝节点分享)_12
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: US美国(mibei77.com 米贝节点分享)_13
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_14
-  network: ws
-  port: 8880
-  server: 89.117.112.40
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime11.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_15
-  network: ws
-  port: 8880
-  server: 213.219.247.40
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime26.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- cipher: chacha20-ietf-poly1305
-  name: US美国(mibei77.com 米贝节点分享)_16
-  password: wwzVn2ZnHfqYa6l8EWh3eY
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)_17
-  network: ws
-  port: 8880
-  server: 94.140.0.40
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime26.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_18
-  network: ws
-  port: 8880
-  server: 89.117.112.30
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime11.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_19
-  network: ws
-  port: 8880
-  server: 45.153.7.50
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime11.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_20
-  network: ws
-  port: 8880
-  server: 188.164.248.30
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime26.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_21
-  network: ws
-  port: 8880
-  server: 213.219.247.50
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime26.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_22
-  network: ws
-  port: 8880
-  server: 45.153.7.30
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime11.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_23
-  network: ws
-  port: 8880
-  server: 91.206.71.50
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime15.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_24
-  network: ws
-  port: 8880
-  server: 104.129.164.30
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime40.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_25
-  network: ws
-  port: 443
-  server: xin.usfox.qzz.io
-  servername: pagescm.freen3.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  ws-opts:
-    headers:
-      Host: pagescm.freen3.de5.net
-    path: /zh/player/shop
-- alterId: 0
-  cipher: auto
-  name: DE德国(mibei77.com 米贝节点分享)_1
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: DE德国(mibei77.com 米贝节点分享)_2
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: DE德国(mibei77.com 米贝节点分享)_3
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: DE德国(mibei77.com 米贝节点分享)_4
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: DE德国(mibei77.com 米贝节点分享)_5
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: DE德国(mibei77.com 米贝节点分享)_6
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: DE德国(mibei77.com 米贝节点分享)_7
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: DE德国(mibei77.com 米贝节点分享)_8
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: DE德国(mibei77.com 米贝节点分享)_9
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: DE德国(mibei77.com 米贝节点分享)_10
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: DE德国(mibei77.com 米贝节点分享)_11
-  password: XUMTygEM1jVYIvysXKqA5T
-  port: 443
-  server: hackney-latest-strike.freesocks.work
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: FR法国(mibei77.com 米贝节点分享)
-  port: 30830
-  server: v30.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: FR法国(mibei77.com 米贝节点分享)_1
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: FR法国(mibei77.com 米贝节点分享)_2
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: KR韩国(mibei77.com 米贝节点分享)
-  network: ws
-  port: 35342
-  server: 220.92.53.205
-  servername: pagescm.freen27.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  ws-opts:
-    headers:
-      Host: pagescm.freen27.cc.cd
-    path: /lives
-- name: KR韩国(mibei77.com 米贝节点分享)_1
-  network: ws
-  port: 19071
-  server: 211.197.58.203
-  servername: pagescm.freen18.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  ws-opts:
-    headers:
-      Host: pagescm.freen18.cc.cd
-    path: /books/work/static
-- name: KR韩国(mibei77.com 米贝节点分享)_2
-  network: ws
-  port: 35342
-  server: 223.222.177.202
-  servername: pagescm.freen6.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  ws-opts:
-    headers:
-      Host: pagescm.freen6.de5.net
-    path: /jump.html/class/account
-- name: KR韩国(mibei77.com 米贝节点分享)_3
-  network: ws
-  port: 38241
-  server: 222.117.231.32
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_4
-  network: ws
-  port: 32773
-  server: 222.102.209.110
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_5
-  network: ws
-  port: 28017
-  server: 222.97.71.115
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_6
-  network: ws
-  port: 10912
-  server: 220.84.186.84
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_7
-  network: ws
-  port: 19530
-  server: 222.116.195.135
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_8
-  network: ws
-  port: 27015
-  server: 220.123.86.198
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_9
-  network: ws
-  port: 16993
-  server: 222.113.18.207
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_10
-  network: ws
-  port: 16010
-  server: 222.113.18.218
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_11
-  network: ws
-  port: 16025
-  server: 222.113.26.172
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_12
-  network: ws
-  port: 22335
-  server: 222.121.232.215
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_13
-  network: ws
-  port: 10035
-  server: 222.114.198.232
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_14
-  network: ws
-  port: 32773
-  server: 222.97.71.115
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_15
-  network: ws
-  port: 32769
-  server: 222.113.18.213
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_16
-  network: ws
-  port: 12349
-  server: 220.86.228.109
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_17
-  network: ws
-  port: 11001
-  server: 222.113.18.205
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_18
-  network: ws
-  port: 34599
-  server: 222.97.254.167
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_19
-  network: ws
-  port: 18786
-  server: 222.97.71.115
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_20
-  network: ws
-  port: 11371
-  server: 222.113.237.204
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_21
-  network: ws
-  port: 30017
-  server: 220.122.102.26
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_22
-  network: ws
-  port: 23791
-  server: 222.121.232.215
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_23
-  network: ws
-  port: 10250
-  server: 220.94.94.109
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_24
-  network: ws
-  port: 10003
-  server: 222.113.237.204
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_25
-  network: ws
-  port: 10443
-  server: 222.111.204.202
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_26
-  network: ws
-  port: 25448
-  server: 222.119.218.222
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_27
-  network: ws
-  port: 37215
-  server: 222.113.18.214
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_28
-  network: ws
-  port: 10995
-  server: 220.122.42.198
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_29
-  network: ws
-  port: 36876
-  server: 222.113.136.246
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_30
-  network: ws
-  port: 12300
-  server: 220.124.181.251
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_31
-  network: ws
-  port: 30005
-  server: 220.87.152.138
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_32
-  network: ws
-  port: 14000
-  server: 220.87.152.138
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_33
-  network: ws
-  port: 18781
-  server: 220.122.42.198
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_34
-  network: ws
-  port: 19071
-  server: 220.122.42.198
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: KR韩国(mibei77.com 米贝节点分享)_35
-  network: ws
-  port: 11965
-  server: 222.117.215.112
-  servername: cf.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: eba1ca75-943e-409d-84b8-54ad62f44a8f
-  ws-opts:
-    headers:
-      Host: cf.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: CA加拿大(mibei77.com 米贝节点分享)
-  network: ws
-  port: 2053
-  server: 23.173.104.195
-  servername: tiyun.ysuzy.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0862024f-f4fb-47f7-a022-9721f04d6ab7
-  ws-opts:
-    headers:
-      Host: tiyun.ysuzy.com
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: US美国(mibei77.com 米贝节点分享)_26
-  network: ws
-  port: 443
-  server: 68.64.182.39
-  servername: gogo.wknm.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: gogo.wknm.dpdns.org
-    path: /
-- name: US美国(mibei77.com 米贝节点分享)_27
-  network: ws
-  port: 2053
-  server: 162.159.44.66
-  servername: fu.baiproxy.us.ci
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    headers:
-      Host: fu.baiproxy.us.ci
-    path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: US美国(mibei77.com 米贝节点分享)_28
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: US美国(mibei77.com 米贝节点分享)_29
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_30
-  port: 51556
-  server: 103.181.164.145
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_31
-  port: 54022
-  server: 103.181.164.145
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: US美国(mibei77.com 米贝节点分享)_32
-  network: ws
-  port: 443
-  server: 192.124.209.62
-  servername: sni.111000.v6.rocks
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_33
-  password: humanity
-  port: 443
-  server: 185.18.250.252
-  skip-cert-verify: false
-  sni: www.gossipglove.com
+- name: 🇰🇷KR韓國丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 12345
+  server: 59.12.232.18
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.gossipglove.com
-    path: /assignment
-- name: US美国(mibei77.com 米贝节点分享)_34
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /?ed
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_35
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 2
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_36
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: US美国(mibei77.com 米贝节点分享)_37
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_38
-  port: 30830
-  server: v30.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_39
-  port: 30830
-  server: v30.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_40
-  port: 53224
-  server: 103.127.243.49
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4f47e6cc-659d-4588-8155-21d2782f1b91
-- alterId: 2
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_41
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: US美国(mibei77.com 米贝节点分享)_42
-  password: 9tqhMdIrTkgQ46PvhyAtMH
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇸🇬SG新加坡丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
+  server: 66.42.61.215
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_43
-  port: 30830
-  server: v30.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇰🇷KR韓國丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
+  port: 20880
+  server: 183.107.78.213
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_44
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇰🇷KR韓國丨yoyapai.com_2
+  password: 8r<[9'l6hAO#8ZQi
+  port: 19461
+  server: 123.99.111.135
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_45
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇰🇷KR韓國丨yoyapai.com_3
+  password: 8r<[9'l6hAO#8ZQi
+  port: 18469
+  server: 59.16.228.103
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 91.221.191.120
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇨🇭CH臺灣丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 146.70.71.157
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇰🇷KR韓國丨yoyapai.com_4
+  password: 8r<[9'l6hAO#8ZQi
+  port: 33848
+  server: 210.178.173.195
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 64
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_46
+  name: 亞太地區
   port: 54022
   server: 103.181.164.145
   skip-cert-verify: false
@@ -1172,36 +131,22 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: US美国(mibei77.com 米贝节点分享)_47
-  password: humanity
+- name: 🇳🇱NL荷蘭丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: www.ignitelimit.com
-  skip-cert-verify: false
+  server: 185.52.0.84
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   udp: true
   ws-opts:
-    path: /assignment
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_48
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: chacha20-ietf-poly1305
-  name: US美国(mibei77.com 米贝节点分享)_49
-  password: wwzVn2ZnHfqYa6l8EWh3eY
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_50
+  name: 🇺🇸 US美國節點
   port: 54022
   server: 103.181.164.145
   skip-cert-verify: false
@@ -1209,59 +154,19 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
+- alterId: 64
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_51
-  port: 30829
-  server: v29.hdacd.com
+  name: 亞太地區_1
+  port: 54022
+  server: 103.181.164.145
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: aes-128-gcm
-  name: US美国(mibei77.com 米贝节点分享)_52
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_53
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: aes-128-gcm
-  name: US美国(mibei77.com 米贝节点分享)_54
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_55
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_56
+  name: 英國
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -1271,57 +176,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_57
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_58
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_59
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_60
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_61
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: aes-128-gcm
-  name: US美国(mibei77.com 米贝节点分享)_62
+  name: 美國
   port: 180
   server: 82.198.246.37
   skip-cert-verify: false
@@ -1331,99 +186,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_63
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_64
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_65
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_66
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_67
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_68
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_69
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_70
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: US美国(mibei77.com 米贝节点分享)_71
-  network: ws
-  port: 8880
-  server: 45.153.7.40
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime11.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_72
+  name: 英國_1
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -1433,9 +196,9 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_73
+  name: 英國_2
   port: 180
-  server: 82.198.246.97
+  server: 82.198.246.250
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -1443,9 +206,42 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_74
+  name: 英國_3
   port: 180
-  server: 82.198.246.97
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 美國_1
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 🇰🇷KR韓國丨yoyapai.com_5
+  password: 8r<[9'l6hAO#8ZQi
+  port: 20002
+  server: 118.39.136.248
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 德國
+  port: 180
+  server: 82.198.246.250
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -1453,9 +249,9 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_75
+  name: 德國_1
   port: 180
-  server: 82.198.246.97
+  server: 82.198.246.250
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -1463,37 +259,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_76
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_77
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_78
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_79
+  name: 亞太地區_2
   port: 54022
   server: 103.181.164.145
   skip-cert-verify: false
@@ -1503,70 +269,40 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_80
-  port: 10086
-  server: 64.186.233.131
+  name: 英國_4
+  port: 180
+  server: 82.198.246.37
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 1eeb55f2-8516-46f3-8c7b-17db1de1df9b
-- cipher: chacha20-ietf-poly1305
-  name: US美国(mibei77.com 米贝节点分享)_81
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_82
-  port: 30836
-  server: v36.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: US美国(mibei77.com 米贝节点分享)_83
-  network: ws
-  port: 8880
-  server: 109.176.239.50
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime03.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_84
-  network: ws
-  port: 8880
-  server: 91.206.71.50
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime15.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_85
-  network: ws
-  port: 8880
-  server: 192.200.160.50
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime43.workers.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: aes-128-gcm
-  name: US美国(mibei77.com 米贝节点分享)_86
+  cipher: auto
+  name: 英國_5
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 🇰🇷KR韓國丨yoyapai.com_6
+  password: 8r<[9'l6hAO#8ZQi
+  port: 18001
+  server: 220.118.248.123
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 英國_6
   port: 180
   server: 82.198.246.214
   skip-cert-verify: false
@@ -1576,273 +312,623 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_87
+  name: 英國_7
   port: 180
-  server: 82.198.246.9
+  server: 82.198.246.214
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: US美国(mibei77.com 米贝节点分享)_88
-  network: ws
-  port: 2053
-  server: 162.159.45.175
-  servername: fu.baiproxy.us.ci
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    headers:
-      Host: fu.baiproxy.us.ci
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_89
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_90
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: US美国(mibei77.com 米贝节点分享)_91
-  network: ws
-  port: 8880
-  server: 89.117.112.30
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime11.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_92
-  network: ws
-  port: 8880
-  server: 89.117.112.40
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime11.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_93
-  network: ws
-  port: 8880
-  server: 188.164.248.50
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime26.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_94
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: US美国(mibei77.com 米贝节点分享)_95
-  network: ws
-  port: 8880
-  server: 213.219.247.40
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime26.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_96
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: US美国(mibei77.com 米贝节点分享)_97
-  network: ws
-  port: 8880
-  server: 45.153.7.30
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime11.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_98
-  network: ws
-  port: 8880
-  server: 45.153.7.50
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime11.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_99
-  network: ws
-  port: 8880
-  server: 213.219.247.50
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime26.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_100
-  network: ws
-  port: 8880
-  server: 188.164.248.40
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime26.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- name: US美国(mibei77.com 米贝节点分享)_101
-  network: ws
-  port: 443
-  server: 199.107.164.217
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: US美国(mibei77.com 米贝节点分享)_102
-  network: ws
-  port: 8880
-  server: 104.129.164.30
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime40.workers.dev
-    path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_103
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_104
-  port: 30830
-  server: v30.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: US美国(mibei77.com 米贝节点分享)_105
-  network: ws
-  port: 443
-  server: 162.159.44.198
-  servername: fu.baiproxy.us.ci
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    headers:
-      Host: fu.baiproxy.us.ci
-    path: /?ed=2560
-- name: US美国(mibei77.com 米贝节点分享)_106
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
+- name: 🇰🇷KR韓國丨yoyapai.com_7
+  password: 8r<[9'l6hAO#8ZQi
+  port: 25448
+  server: 121.167.94.122
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US美国(mibei77.com 米贝节点分享)_107
-  network: ws
-  port: 2087
-  server: 162.159.39.157
-  servername: 1.proxy2.us.ci
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
-  ws-opts:
-    headers:
-      Host: 1.proxy2.us.ci
-    path: /?ed=2560
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)_108
-  port: 30830
-  server: v30.hdacd.com
+  name: 🇺🇸 US美國
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: US美国(mibei77.com 米贝节点分享)_109
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國節點
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國_8
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 🇱🇻LV拉脫維亞節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 91.239.23.10
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 英國節點_1
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US美國節點_1
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 🇷🇴RO羅馬尼亞節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 45.67.34.89
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 美國節點
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美國_2
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 荷蘭節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 77.110.103.243
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 美國節點_1
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國_9
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國_10
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國_11
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 GB英國
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 GB英国
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國節點_2
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 🇱🇹LT立陶宛丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 185.80.128.115
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 泰國節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 45.91.134.91
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 英國
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國_12
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US美國丨yoyapai.com
+  password: XUMTygEM1jVYIvysXKqA5T
+  port: 443
+  server: hackney-latest-strike.freesocks.work
+  type: ss
+  udp: true
+- name: 🇰🇷KR韓國丨yoyapai.com_8
+  password: 8r<[9'l6hAO#8ZQi
+  port: 10003
+  server: 183.102.55.197
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 英國_13
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 GB英國_1
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 美國節點_2
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 美國_3
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 德國_2
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國_14
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 🇸🇪SE瑞典節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 77.110.121.125
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 英國_15
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 泰國節點丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 45.150.128.181
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 瑞士節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 91.192.102.55
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: firefox
+  name: 新加坡丨yoyapai.com
   network: ws
-  port: 2087
-  server: 162.159.44.100
-  servername: fu.baiproxy.us.ci
+  port: 2053
+  server: cf4.danfeng.eu.org
+  servername: juzi8186.qea.ccwu.cc
   tls: true
   type: vless
   udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
   ws-opts:
     headers:
-      Host: fu.baiproxy.us.ci
-    path: /?ed=2560
+      Host: juzi8186.qea.ccwu.cc
+    path: /tv/juzibaipiao?ed=2560
 - alterId: 0
   cipher: auto
-  name: HK香港(mibei77.com 米贝节点分享)
+  name: 美國_4
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國_16
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 🇳🇱NL荷蘭丨yoyapai.com_2
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 144.31.122.162
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com_3
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 38.180.70.111
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com_4
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 38.180.96.40
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 英國_17
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 美國丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tro8sFW1S91B6sZrM1?ed=2560
+- name: 🇳🇱NL荷蘭丨yoyapai.com_5
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 91.221.190.80
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com_6
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 95.169.192.234
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 瑞士節點丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 140.238.208.240
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇰🇷KR韓國丨yoyapai.com_9
+  password: 8r<[9'l6hAO#8ZQi
+  port: 32773
+  server: 59.0.95.106
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 奧地利節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 38.180.143.51
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 西班牙節點🇪🇸ES丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 172.233.97.34
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 瑞典丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 16.16.45.85
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇷🇺RU俄羅斯丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 95.163.242.189
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 瑞典節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 64.112.127.151
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 丹麥節點🇩🇰DK丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 77.37.96.247
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com_7
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 38.180.233.61
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 HK香港
   port: 51556
   server: 103.181.164.145
   skip-cert-verify: false
@@ -1850,1179 +936,753 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: HK香港(mibei77.com 米贝节点分享)_1
-  port: 30830
-  server: v30.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: HK香港(mibei77.com 米贝节点分享)_2
-  port: 30830
-  server: v30.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: HK香港(mibei77.com 米贝节点分享)_3
-  port: 30830
-  server: v30.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: HK香港(mibei77.com 米贝节点分享)_4
-  port: 30830
-  server: v30.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: HK香港(mibei77.com 米贝节点分享)_5
-  port: 30830
-  server: v30.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: SG新加坡(mibei77.com 米贝节点分享)_1
-  network: ws
+- name: 🇳🇱NL荷蘭丨yoyapai.com_8
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 20.6.12.145
-  servername: sni.skylee4.cloudns.ch
+  server: 2.59.183.210
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
   ws-opts:
     headers:
-      Host: sni.skylee4.cloudns.ch
-    path: /proxyip=ProxyIP.CMLiussss.net
-- name: SG新加坡(mibei77.com 米贝节点分享)_2
-  network: ws
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 捷克節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 43.160.207.175
-  servername: babayaga-6i7.pages.dev
+  server: 185.253.46.5
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
   ws-opts:
     headers:
-      Host: babayaga-6i7.pages.dev
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- name: SG新加坡(mibei77.com 米贝节点分享)_3
-  network: ws
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com_9
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 141.11.43.124
-  servername: babayaga-6i7.pages.dev
+  server: 45.145.171.206
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
   ws-opts:
     headers:
-      Host: babayaga-6i7.pages.dev
-    path: /?ed=2560&Telegram🇨🇳@WangCai2
-- alterId: 32
-  cipher: auto
-  name: SG新加坡(mibei77.com 米贝节点分享)_4
-  network: ws
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 法國節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: vc.fly.dev
-  servername: vc.fly.dev
-  skip-cert-verify: false
+  server: 138.124.81.204
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
   ws-opts:
     headers:
-      Host: vc.fly.dev
-    path: /vc
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_1
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 38.180.205.71
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_2
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇷🇴RO羅馬尼亞節點丨yoyapai.com_2
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 38.180.35.88
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_3
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 拉脫維亞丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 146.19.84.236
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_4
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 俄羅斯節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 95.213.226.60
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_5
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇰🇷KR韓國丨yoyapai.com_10
+  password: 8r<[9'l6hAO#8ZQi
+  port: 10912
+  server: 175.197.237.36
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_6
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_7
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_8
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 2
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_9
-  port: 30836
-  server: v36.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_10
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_11
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_12
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_13
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_14
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_15
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_16
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_17
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_18
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_19
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_20
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_21
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_22
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_23
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_24
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_25
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_26
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_27
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_28
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_29
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_30
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_31
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_32
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_33
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_34
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_35
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_36
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_37
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_38
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_39
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_40
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_41
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_42
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_43
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_44
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_45
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_46
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_47
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_48
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_49
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_50
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_51
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_52
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_53
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_54
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_55
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_56
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_57
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: GB英国(mibei77.com 米贝节点分享)_58
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: HK香港(mibei77.com 米贝节点分享)_6
-  network: ws
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 俄羅斯節點丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 144.79.11.202
-  servername: pagescm.freen22.cc.cd
+  server: 85.239.39.144
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
   ws-opts:
     headers:
-      Host: pagescm.freen22.cc.cd
-    path: /detail/go
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 俄羅斯節點丨yoyapai.com_2
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 79.141.73.189
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 荷蘭節點丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 31.15.17.129
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com_10
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 152.53.200.164
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 瑞典節點丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 176.125.240.147
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 意大利丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 38.180.194.222
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 瑞士節點丨yoyapai.com_2
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 38.180.84.86
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 瑞典節點丨yoyapai.com_2
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 83.147.254.243
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 匈牙利節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 180.149.37.38
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 意大利節點🇮🇹IT丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 151.241.215.148
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 立陶宛節點🇱🇹LT丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 46.29.234.91
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 瑞典節點丨yoyapai.com_3
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 185.104.151.181
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 奧地利節點丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 46.102.156.144
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇸🇪SE瑞典丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 176.125.240.63
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇸🇪SE瑞典節點丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 45.153.187.209
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇧🇪BE比利時丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 95.164.62.196
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇩🇰DK丹麥丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 77.37.96.132
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com_11
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 31.15.18.58
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 荷蘭節點丨yoyapai.com_2
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 152.53.200.89
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com_12
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 185.162.9.60
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇸🇪SE瑞典節點丨yoyapai.com_2
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 83.147.254.168
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇫🇷FR法國丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 109.61.110.241
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- cipher: chacha20-ietf-poly1305
+  name: 美國節點丨yoyapai.com
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美國丨yoyapai.com_1
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美國丨yoyapai.com_2
+  password: wwzVn2ZnHfqYa6l8EWh3eY
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美國丨yoyapai.com_3
+  password: RFK38Cg7APneSB5cWDcpbm
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- name: 🇪🇪EE愛沙尼亞丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 5.189.254.235
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- cipher: aes-128-gcm
+  name: 🇺🇸 US美国丨yoyapai.com
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
+  type: ss
+  udp: true
+- name: 🇳🇱NL荷蘭丨yoyapai.com_13
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 185.31.200.184
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 64
+  cipher: auto
+  name: 亞太地區_3
+  port: 54022
+  server: 103.181.164.145
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 美國_5
+  port: 54022
+  server: 103.181.164.145
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 亞太地區_4
+  port: 54022
+  server: 103.181.164.145
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - DE德国(mibei77.com 米贝节点分享)
-  - GB英国(mibei77.com 米贝节点分享)
-  - SG新加坡(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_1
-  - US美国(mibei77.com 米贝节点分享)_2
-  - US美国(mibei77.com 米贝节点分享)_3
-  - US美国(mibei77.com 米贝节点分享)_4
-  - US美国(mibei77.com 米贝节点分享)_5
-  - US美国(mibei77.com 米贝节点分享)_6
-  - US美国(mibei77.com 米贝节点分享)_7
-  - US美国(mibei77.com 米贝节点分享)_8
-  - US美国(mibei77.com 米贝节点分享)_9
-  - US美国(mibei77.com 米贝节点分享)_10
-  - US美国(mibei77.com 米贝节点分享)_11
-  - US美国(mibei77.com 米贝节点分享)_12
-  - US美国(mibei77.com 米贝节点分享)_13
-  - US美国(mibei77.com 米贝节点分享)_14
-  - US美国(mibei77.com 米贝节点分享)_15
-  - US美国(mibei77.com 米贝节点分享)_16
-  - US美国(mibei77.com 米贝节点分享)_17
-  - US美国(mibei77.com 米贝节点分享)_18
-  - US美国(mibei77.com 米贝节点分享)_19
-  - US美国(mibei77.com 米贝节点分享)_20
-  - US美国(mibei77.com 米贝节点分享)_21
-  - US美国(mibei77.com 米贝节点分享)_22
-  - US美国(mibei77.com 米贝节点分享)_23
-  - US美国(mibei77.com 米贝节点分享)_24
-  - US美国(mibei77.com 米贝节点分享)_25
-  - DE德国(mibei77.com 米贝节点分享)_1
-  - DE德国(mibei77.com 米贝节点分享)_2
-  - DE德国(mibei77.com 米贝节点分享)_3
-  - DE德国(mibei77.com 米贝节点分享)_4
-  - DE德国(mibei77.com 米贝节点分享)_5
-  - DE德国(mibei77.com 米贝节点分享)_6
-  - DE德国(mibei77.com 米贝节点分享)_7
-  - DE德国(mibei77.com 米贝节点分享)_8
-  - DE德国(mibei77.com 米贝节点分享)_9
-  - DE德国(mibei77.com 米贝节点分享)_10
-  - DE德国(mibei77.com 米贝节点分享)_11
-  - FR法国(mibei77.com 米贝节点分享)
-  - FR法国(mibei77.com 米贝节点分享)_1
-  - FR法国(mibei77.com 米贝节点分享)_2
-  - KR韩国(mibei77.com 米贝节点分享)
-  - KR韩国(mibei77.com 米贝节点分享)_1
-  - KR韩国(mibei77.com 米贝节点分享)_2
-  - KR韩国(mibei77.com 米贝节点分享)_3
-  - KR韩国(mibei77.com 米贝节点分享)_4
-  - KR韩国(mibei77.com 米贝节点分享)_5
-  - KR韩国(mibei77.com 米贝节点分享)_6
-  - KR韩国(mibei77.com 米贝节点分享)_7
-  - KR韩国(mibei77.com 米贝节点分享)_8
-  - KR韩国(mibei77.com 米贝节点分享)_9
-  - KR韩国(mibei77.com 米贝节点分享)_10
-  - KR韩国(mibei77.com 米贝节点分享)_11
-  - KR韩国(mibei77.com 米贝节点分享)_12
-  - KR韩国(mibei77.com 米贝节点分享)_13
-  - KR韩国(mibei77.com 米贝节点分享)_14
-  - KR韩国(mibei77.com 米贝节点分享)_15
-  - KR韩国(mibei77.com 米贝节点分享)_16
-  - KR韩国(mibei77.com 米贝节点分享)_17
-  - KR韩国(mibei77.com 米贝节点分享)_18
-  - KR韩国(mibei77.com 米贝节点分享)_19
-  - KR韩国(mibei77.com 米贝节点分享)_20
-  - KR韩国(mibei77.com 米贝节点分享)_21
-  - KR韩国(mibei77.com 米贝节点分享)_22
-  - KR韩国(mibei77.com 米贝节点分享)_23
-  - KR韩国(mibei77.com 米贝节点分享)_24
-  - KR韩国(mibei77.com 米贝节点分享)_25
-  - KR韩国(mibei77.com 米贝节点分享)_26
-  - KR韩国(mibei77.com 米贝节点分享)_27
-  - KR韩国(mibei77.com 米贝节点分享)_28
-  - KR韩国(mibei77.com 米贝节点分享)_29
-  - KR韩国(mibei77.com 米贝节点分享)_30
-  - KR韩国(mibei77.com 米贝节点分享)_31
-  - KR韩国(mibei77.com 米贝节点分享)_32
-  - KR韩国(mibei77.com 米贝节点分享)_33
-  - KR韩国(mibei77.com 米贝节点分享)_34
-  - KR韩国(mibei77.com 米贝节点分享)_35
-  - CA加拿大(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_26
-  - US美国(mibei77.com 米贝节点分享)_27
-  - US美国(mibei77.com 米贝节点分享)_28
-  - US美国(mibei77.com 米贝节点分享)_29
-  - US美国(mibei77.com 米贝节点分享)_30
-  - US美国(mibei77.com 米贝节点分享)_31
-  - US美国(mibei77.com 米贝节点分享)_32
-  - US美国(mibei77.com 米贝节点分享)_33
-  - US美国(mibei77.com 米贝节点分享)_34
-  - US美国(mibei77.com 米贝节点分享)_35
-  - US美国(mibei77.com 米贝节点分享)_36
-  - US美国(mibei77.com 米贝节点分享)_37
-  - US美国(mibei77.com 米贝节点分享)_38
-  - US美国(mibei77.com 米贝节点分享)_39
-  - US美国(mibei77.com 米贝节点分享)_40
-  - US美国(mibei77.com 米贝节点分享)_41
-  - US美国(mibei77.com 米贝节点分享)_42
-  - US美国(mibei77.com 米贝节点分享)_43
-  - US美国(mibei77.com 米贝节点分享)_44
-  - US美国(mibei77.com 米贝节点分享)_45
-  - US美国(mibei77.com 米贝节点分享)_46
-  - US美国(mibei77.com 米贝节点分享)_47
-  - US美国(mibei77.com 米贝节点分享)_48
-  - US美国(mibei77.com 米贝节点分享)_49
-  - US美国(mibei77.com 米贝节点分享)_50
-  - US美国(mibei77.com 米贝节点分享)_51
-  - US美国(mibei77.com 米贝节点分享)_52
-  - US美国(mibei77.com 米贝节点分享)_53
-  - US美国(mibei77.com 米贝节点分享)_54
-  - US美国(mibei77.com 米贝节点分享)_55
-  - US美国(mibei77.com 米贝节点分享)_56
-  - US美国(mibei77.com 米贝节点分享)_57
-  - US美国(mibei77.com 米贝节点分享)_58
-  - US美国(mibei77.com 米贝节点分享)_59
-  - US美国(mibei77.com 米贝节点分享)_60
-  - US美国(mibei77.com 米贝节点分享)_61
-  - US美国(mibei77.com 米贝节点分享)_62
-  - US美国(mibei77.com 米贝节点分享)_63
-  - US美国(mibei77.com 米贝节点分享)_64
-  - US美国(mibei77.com 米贝节点分享)_65
-  - US美国(mibei77.com 米贝节点分享)_66
-  - US美国(mibei77.com 米贝节点分享)_67
-  - US美国(mibei77.com 米贝节点分享)_68
-  - US美国(mibei77.com 米贝节点分享)_69
-  - US美国(mibei77.com 米贝节点分享)_70
-  - US美国(mibei77.com 米贝节点分享)_71
-  - US美国(mibei77.com 米贝节点分享)_72
-  - US美国(mibei77.com 米贝节点分享)_73
-  - US美国(mibei77.com 米贝节点分享)_74
-  - US美国(mibei77.com 米贝节点分享)_75
-  - US美国(mibei77.com 米贝节点分享)_76
-  - US美国(mibei77.com 米贝节点分享)_77
-  - US美国(mibei77.com 米贝节点分享)_78
-  - US美国(mibei77.com 米贝节点分享)_79
-  - US美国(mibei77.com 米贝节点分享)_80
-  - US美国(mibei77.com 米贝节点分享)_81
-  - US美国(mibei77.com 米贝节点分享)_82
-  - US美国(mibei77.com 米贝节点分享)_83
-  - US美国(mibei77.com 米贝节点分享)_84
-  - US美国(mibei77.com 米贝节点分享)_85
-  - US美国(mibei77.com 米贝节点分享)_86
-  - US美国(mibei77.com 米贝节点分享)_87
-  - US美国(mibei77.com 米贝节点分享)_88
-  - US美国(mibei77.com 米贝节点分享)_89
-  - US美国(mibei77.com 米贝节点分享)_90
-  - US美国(mibei77.com 米贝节点分享)_91
-  - US美国(mibei77.com 米贝节点分享)_92
-  - US美国(mibei77.com 米贝节点分享)_93
-  - US美国(mibei77.com 米贝节点分享)_94
-  - US美国(mibei77.com 米贝节点分享)_95
-  - US美国(mibei77.com 米贝节点分享)_96
-  - US美国(mibei77.com 米贝节点分享)_97
-  - US美国(mibei77.com 米贝节点分享)_98
-  - US美国(mibei77.com 米贝节点分享)_99
-  - US美国(mibei77.com 米贝节点分享)_100
-  - US美国(mibei77.com 米贝节点分享)_101
-  - US美国(mibei77.com 米贝节点分享)_102
-  - US美国(mibei77.com 米贝节点分享)_103
-  - US美国(mibei77.com 米贝节点分享)_104
-  - US美国(mibei77.com 米贝节点分享)_105
-  - US美国(mibei77.com 米贝节点分享)_106
-  - US美国(mibei77.com 米贝节点分享)_107
-  - US美国(mibei77.com 米贝节点分享)_108
-  - US美国(mibei77.com 米贝节点分享)_109
-  - HK香港(mibei77.com 米贝节点分享)
-  - HK香港(mibei77.com 米贝节点分享)_1
-  - HK香港(mibei77.com 米贝节点分享)_2
-  - HK香港(mibei77.com 米贝节点分享)_3
-  - HK香港(mibei77.com 米贝节点分享)_4
-  - HK香港(mibei77.com 米贝节点分享)_5
-  - SG新加坡(mibei77.com 米贝节点分享)_1
-  - SG新加坡(mibei77.com 米贝节点分享)_2
-  - SG新加坡(mibei77.com 米贝节点分享)_3
-  - SG新加坡(mibei77.com 米贝节点分享)_4
-  - GB英国(mibei77.com 米贝节点分享)_1
-  - GB英国(mibei77.com 米贝节点分享)_2
-  - GB英国(mibei77.com 米贝节点分享)_3
-  - GB英国(mibei77.com 米贝节点分享)_4
-  - GB英国(mibei77.com 米贝节点分享)_5
-  - GB英国(mibei77.com 米贝节点分享)_6
-  - GB英国(mibei77.com 米贝节点分享)_7
-  - GB英国(mibei77.com 米贝节点分享)_8
-  - GB英国(mibei77.com 米贝节点分享)_9
-  - GB英国(mibei77.com 米贝节点分享)_10
-  - GB英国(mibei77.com 米贝节点分享)_11
-  - GB英国(mibei77.com 米贝节点分享)_12
-  - GB英国(mibei77.com 米贝节点分享)_13
-  - GB英国(mibei77.com 米贝节点分享)_14
-  - GB英国(mibei77.com 米贝节点分享)_15
-  - GB英国(mibei77.com 米贝节点分享)_16
-  - GB英国(mibei77.com 米贝节点分享)_17
-  - GB英国(mibei77.com 米贝节点分享)_18
-  - GB英国(mibei77.com 米贝节点分享)_19
-  - GB英国(mibei77.com 米贝节点分享)_20
-  - GB英国(mibei77.com 米贝节点分享)_21
-  - GB英国(mibei77.com 米贝节点分享)_22
-  - GB英国(mibei77.com 米贝节点分享)_23
-  - GB英国(mibei77.com 米贝节点分享)_24
-  - GB英国(mibei77.com 米贝节点分享)_25
-  - GB英国(mibei77.com 米贝节点分享)_26
-  - GB英国(mibei77.com 米贝节点分享)_27
-  - GB英国(mibei77.com 米贝节点分享)_28
-  - GB英国(mibei77.com 米贝节点分享)_29
-  - GB英国(mibei77.com 米贝节点分享)_30
-  - GB英国(mibei77.com 米贝节点分享)_31
-  - GB英国(mibei77.com 米贝节点分享)_32
-  - GB英国(mibei77.com 米贝节点分享)_33
-  - GB英国(mibei77.com 米贝节点分享)_34
-  - GB英国(mibei77.com 米贝节点分享)_35
-  - GB英国(mibei77.com 米贝节点分享)_36
-  - GB英国(mibei77.com 米贝节点分享)_37
-  - GB英国(mibei77.com 米贝节点分享)_38
-  - GB英国(mibei77.com 米贝节点分享)_39
-  - GB英国(mibei77.com 米贝节点分享)_40
-  - GB英国(mibei77.com 米贝节点分享)_41
-  - GB英国(mibei77.com 米贝节点分享)_42
-  - GB英国(mibei77.com 米贝节点分享)_43
-  - GB英国(mibei77.com 米贝节点分享)_44
-  - GB英国(mibei77.com 米贝节点分享)_45
-  - GB英国(mibei77.com 米贝节点分享)_46
-  - GB英国(mibei77.com 米贝节点分享)_47
-  - GB英国(mibei77.com 米贝节点分享)_48
-  - GB英国(mibei77.com 米贝节点分享)_49
-  - GB英国(mibei77.com 米贝节点分享)_50
-  - GB英国(mibei77.com 米贝节点分享)_51
-  - GB英国(mibei77.com 米贝节点分享)_52
-  - GB英国(mibei77.com 米贝节点分享)_53
-  - GB英国(mibei77.com 米贝节点分享)_54
-  - GB英国(mibei77.com 米贝节点分享)_55
-  - GB英国(mibei77.com 米贝节点分享)_56
-  - GB英国(mibei77.com 米贝节点分享)_57
-  - GB英国(mibei77.com 米贝节点分享)_58
-  - HK香港(mibei77.com 米贝节点分享)_6
+  - 🇰🇷KR韓國丨yoyapai.com
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_1
+  - 🇰🇷KR韓國丨yoyapai.com_2
+  - 🇰🇷KR韓國丨yoyapai.com_3
+  - 🇳🇱NL荷蘭丨yoyapai.com
+  - 🇨🇭CH臺灣丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_4
+  - 亞太地區
+  - 🇳🇱NL荷蘭丨yoyapai.com_1
+  - 🇺🇸 US美國節點
+  - 亞太地區_1
+  - 英國
+  - 美國
+  - 英國_1
+  - 英國_2
+  - 英國_3
+  - 美國_1
+  - 🇰🇷KR韓國丨yoyapai.com_5
+  - 德國
+  - 德國_1
+  - 亞太地區_2
+  - 英國_4
+  - 英國_5
+  - 🇰🇷KR韓國丨yoyapai.com_6
+  - 英國_6
+  - 英國_7
+  - 🇰🇷KR韓國丨yoyapai.com_7
+  - 🇺🇸 US美國
+  - 英國節點
+  - 英國_8
+  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
+  - 英國節點_1
+  - 🇺🇸 US美國節點_1
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com
+  - 美國節點
+  - 美國_2
+  - 荷蘭節點丨yoyapai.com
+  - 美國節點_1
+  - 英國_9
+  - 英國_10
+  - 英國_11
+  - 🇬🇧 GB英國
+  - 🇬🇧 GB英国
+  - 英國節點_2
+  - 🇱🇹LT立陶宛丨yoyapai.com
+  - 泰國節點丨yoyapai.com
+  - 🇬🇧 英國
+  - 英國_12
+  - 🇺🇸 US美國丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_8
+  - 英國_13
+  - 🇬🇧 GB英國_1
+  - 美國節點_2
+  - 美國_3
+  - 德國_2
+  - 英國_14
+  - 🇸🇪SE瑞典節點丨yoyapai.com
+  - 英國_15
+  - 泰國節點丨yoyapai.com_1
+  - 瑞士節點丨yoyapai.com
+  - 新加坡丨yoyapai.com
+  - 美國_4
+  - 英國_16
+  - 🇳🇱NL荷蘭丨yoyapai.com_2
+  - 🇳🇱NL荷蘭丨yoyapai.com_3
+  - 🇳🇱NL荷蘭丨yoyapai.com_4
+  - 英國_17
+  - 美國丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 瑞士節點丨yoyapai.com_1
+  - 🇰🇷KR韓國丨yoyapai.com_9
+  - 奧地利節點丨yoyapai.com
+  - 西班牙節點🇪🇸ES丨yoyapai.com
+  - 瑞典丨yoyapai.com
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 瑞典節點丨yoyapai.com
+  - 丹麥節點🇩🇰DK丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_7
+  - 🇭🇰 HK香港
+  - 🇳🇱NL荷蘭丨yoyapai.com_8
+  - 捷克節點丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_9
+  - 法國節點丨yoyapai.com
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_2
+  - 拉脫維亞丨yoyapai.com
+  - 俄羅斯節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_10
+  - 俄羅斯節點丨yoyapai.com_1
+  - 俄羅斯節點丨yoyapai.com_2
+  - 荷蘭節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_10
+  - 瑞典節點丨yoyapai.com_1
+  - 意大利丨yoyapai.com
+  - 瑞士節點丨yoyapai.com_2
+  - 瑞典節點丨yoyapai.com_2
+  - 匈牙利節點丨yoyapai.com
+  - 意大利節點🇮🇹IT丨yoyapai.com
+  - 立陶宛節點🇱🇹LT丨yoyapai.com
+  - 瑞典節點丨yoyapai.com_3
+  - 奧地利節點丨yoyapai.com_1
+  - 🇸🇪SE瑞典丨yoyapai.com
+  - 🇸🇪SE瑞典節點丨yoyapai.com_1
+  - 🇧🇪BE比利時丨yoyapai.com
+  - 🇩🇰DK丹麥丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_11
+  - 荷蘭節點丨yoyapai.com_2
+  - 🇳🇱NL荷蘭丨yoyapai.com_12
+  - 🇸🇪SE瑞典節點丨yoyapai.com_2
+  - 🇫🇷FR法國丨yoyapai.com
+  - 美國節點丨yoyapai.com
+  - 美國丨yoyapai.com_1
+  - 美國丨yoyapai.com_2
+  - 美國丨yoyapai.com_3
+  - 🇪🇪EE愛沙尼亞丨yoyapai.com
+  - 🇺🇸 US美国丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_13
+  - 亞太地區_3
+  - 美國_5
+  - 亞太地區_4
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - DE德国(mibei77.com 米贝节点分享)
-  - GB英国(mibei77.com 米贝节点分享)
-  - SG新加坡(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_1
-  - US美国(mibei77.com 米贝节点分享)_2
-  - US美国(mibei77.com 米贝节点分享)_3
-  - US美国(mibei77.com 米贝节点分享)_4
-  - US美国(mibei77.com 米贝节点分享)_5
-  - US美国(mibei77.com 米贝节点分享)_6
-  - US美国(mibei77.com 米贝节点分享)_7
-  - US美国(mibei77.com 米贝节点分享)_8
-  - US美国(mibei77.com 米贝节点分享)_9
-  - US美国(mibei77.com 米贝节点分享)_10
-  - US美国(mibei77.com 米贝节点分享)_11
-  - US美国(mibei77.com 米贝节点分享)_12
-  - US美国(mibei77.com 米贝节点分享)_13
-  - US美国(mibei77.com 米贝节点分享)_14
-  - US美国(mibei77.com 米贝节点分享)_15
-  - US美国(mibei77.com 米贝节点分享)_16
-  - US美国(mibei77.com 米贝节点分享)_17
-  - US美国(mibei77.com 米贝节点分享)_18
-  - US美国(mibei77.com 米贝节点分享)_19
-  - US美国(mibei77.com 米贝节点分享)_20
-  - US美国(mibei77.com 米贝节点分享)_21
-  - US美国(mibei77.com 米贝节点分享)_22
-  - US美国(mibei77.com 米贝节点分享)_23
-  - US美国(mibei77.com 米贝节点分享)_24
-  - US美国(mibei77.com 米贝节点分享)_25
-  - DE德国(mibei77.com 米贝节点分享)_1
-  - DE德国(mibei77.com 米贝节点分享)_2
-  - DE德国(mibei77.com 米贝节点分享)_3
-  - DE德国(mibei77.com 米贝节点分享)_4
-  - DE德国(mibei77.com 米贝节点分享)_5
-  - DE德国(mibei77.com 米贝节点分享)_6
-  - DE德国(mibei77.com 米贝节点分享)_7
-  - DE德国(mibei77.com 米贝节点分享)_8
-  - DE德国(mibei77.com 米贝节点分享)_9
-  - DE德国(mibei77.com 米贝节点分享)_10
-  - DE德国(mibei77.com 米贝节点分享)_11
-  - FR法国(mibei77.com 米贝节点分享)
-  - FR法国(mibei77.com 米贝节点分享)_1
-  - FR法国(mibei77.com 米贝节点分享)_2
-  - KR韩国(mibei77.com 米贝节点分享)
-  - KR韩国(mibei77.com 米贝节点分享)_1
-  - KR韩国(mibei77.com 米贝节点分享)_2
-  - KR韩国(mibei77.com 米贝节点分享)_3
-  - KR韩国(mibei77.com 米贝节点分享)_4
-  - KR韩国(mibei77.com 米贝节点分享)_5
-  - KR韩国(mibei77.com 米贝节点分享)_6
-  - KR韩国(mibei77.com 米贝节点分享)_7
-  - KR韩国(mibei77.com 米贝节点分享)_8
-  - KR韩国(mibei77.com 米贝节点分享)_9
-  - KR韩国(mibei77.com 米贝节点分享)_10
-  - KR韩国(mibei77.com 米贝节点分享)_11
-  - KR韩国(mibei77.com 米贝节点分享)_12
-  - KR韩国(mibei77.com 米贝节点分享)_13
-  - KR韩国(mibei77.com 米贝节点分享)_14
-  - KR韩国(mibei77.com 米贝节点分享)_15
-  - KR韩国(mibei77.com 米贝节点分享)_16
-  - KR韩国(mibei77.com 米贝节点分享)_17
-  - KR韩国(mibei77.com 米贝节点分享)_18
-  - KR韩国(mibei77.com 米贝节点分享)_19
-  - KR韩国(mibei77.com 米贝节点分享)_20
-  - KR韩国(mibei77.com 米贝节点分享)_21
-  - KR韩国(mibei77.com 米贝节点分享)_22
-  - KR韩国(mibei77.com 米贝节点分享)_23
-  - KR韩国(mibei77.com 米贝节点分享)_24
-  - KR韩国(mibei77.com 米贝节点分享)_25
-  - KR韩国(mibei77.com 米贝节点分享)_26
-  - KR韩国(mibei77.com 米贝节点分享)_27
-  - KR韩国(mibei77.com 米贝节点分享)_28
-  - KR韩国(mibei77.com 米贝节点分享)_29
-  - KR韩国(mibei77.com 米贝节点分享)_30
-  - KR韩国(mibei77.com 米贝节点分享)_31
-  - KR韩国(mibei77.com 米贝节点分享)_32
-  - KR韩国(mibei77.com 米贝节点分享)_33
-  - KR韩国(mibei77.com 米贝节点分享)_34
-  - KR韩国(mibei77.com 米贝节点分享)_35
-  - CA加拿大(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_26
-  - US美国(mibei77.com 米贝节点分享)_27
-  - US美国(mibei77.com 米贝节点分享)_28
-  - US美国(mibei77.com 米贝节点分享)_29
-  - US美国(mibei77.com 米贝节点分享)_30
-  - US美国(mibei77.com 米贝节点分享)_31
-  - US美国(mibei77.com 米贝节点分享)_32
-  - US美国(mibei77.com 米贝节点分享)_33
-  - US美国(mibei77.com 米贝节点分享)_34
-  - US美国(mibei77.com 米贝节点分享)_35
-  - US美国(mibei77.com 米贝节点分享)_36
-  - US美国(mibei77.com 米贝节点分享)_37
-  - US美国(mibei77.com 米贝节点分享)_38
-  - US美国(mibei77.com 米贝节点分享)_39
-  - US美国(mibei77.com 米贝节点分享)_40
-  - US美国(mibei77.com 米贝节点分享)_41
-  - US美国(mibei77.com 米贝节点分享)_42
-  - US美国(mibei77.com 米贝节点分享)_43
-  - US美国(mibei77.com 米贝节点分享)_44
-  - US美国(mibei77.com 米贝节点分享)_45
-  - US美国(mibei77.com 米贝节点分享)_46
-  - US美国(mibei77.com 米贝节点分享)_47
-  - US美国(mibei77.com 米贝节点分享)_48
-  - US美国(mibei77.com 米贝节点分享)_49
-  - US美国(mibei77.com 米贝节点分享)_50
-  - US美国(mibei77.com 米贝节点分享)_51
-  - US美国(mibei77.com 米贝节点分享)_52
-  - US美国(mibei77.com 米贝节点分享)_53
-  - US美国(mibei77.com 米贝节点分享)_54
-  - US美国(mibei77.com 米贝节点分享)_55
-  - US美国(mibei77.com 米贝节点分享)_56
-  - US美国(mibei77.com 米贝节点分享)_57
-  - US美国(mibei77.com 米贝节点分享)_58
-  - US美国(mibei77.com 米贝节点分享)_59
-  - US美国(mibei77.com 米贝节点分享)_60
-  - US美国(mibei77.com 米贝节点分享)_61
-  - US美国(mibei77.com 米贝节点分享)_62
-  - US美国(mibei77.com 米贝节点分享)_63
-  - US美国(mibei77.com 米贝节点分享)_64
-  - US美国(mibei77.com 米贝节点分享)_65
-  - US美国(mibei77.com 米贝节点分享)_66
-  - US美国(mibei77.com 米贝节点分享)_67
-  - US美国(mibei77.com 米贝节点分享)_68
-  - US美国(mibei77.com 米贝节点分享)_69
-  - US美国(mibei77.com 米贝节点分享)_70
-  - US美国(mibei77.com 米贝节点分享)_71
-  - US美国(mibei77.com 米贝节点分享)_72
-  - US美国(mibei77.com 米贝节点分享)_73
-  - US美国(mibei77.com 米贝节点分享)_74
-  - US美国(mibei77.com 米贝节点分享)_75
-  - US美国(mibei77.com 米贝节点分享)_76
-  - US美国(mibei77.com 米贝节点分享)_77
-  - US美国(mibei77.com 米贝节点分享)_78
-  - US美国(mibei77.com 米贝节点分享)_79
-  - US美国(mibei77.com 米贝节点分享)_80
-  - US美国(mibei77.com 米贝节点分享)_81
-  - US美国(mibei77.com 米贝节点分享)_82
-  - US美国(mibei77.com 米贝节点分享)_83
-  - US美国(mibei77.com 米贝节点分享)_84
-  - US美国(mibei77.com 米贝节点分享)_85
-  - US美国(mibei77.com 米贝节点分享)_86
-  - US美国(mibei77.com 米贝节点分享)_87
-  - US美国(mibei77.com 米贝节点分享)_88
-  - US美国(mibei77.com 米贝节点分享)_89
-  - US美国(mibei77.com 米贝节点分享)_90
-  - US美国(mibei77.com 米贝节点分享)_91
-  - US美国(mibei77.com 米贝节点分享)_92
-  - US美国(mibei77.com 米贝节点分享)_93
-  - US美国(mibei77.com 米贝节点分享)_94
-  - US美国(mibei77.com 米贝节点分享)_95
-  - US美国(mibei77.com 米贝节点分享)_96
-  - US美国(mibei77.com 米贝节点分享)_97
-  - US美国(mibei77.com 米贝节点分享)_98
-  - US美国(mibei77.com 米贝节点分享)_99
-  - US美国(mibei77.com 米贝节点分享)_100
-  - US美国(mibei77.com 米贝节点分享)_101
-  - US美国(mibei77.com 米贝节点分享)_102
-  - US美国(mibei77.com 米贝节点分享)_103
-  - US美国(mibei77.com 米贝节点分享)_104
-  - US美国(mibei77.com 米贝节点分享)_105
-  - US美国(mibei77.com 米贝节点分享)_106
-  - US美国(mibei77.com 米贝节点分享)_107
-  - US美国(mibei77.com 米贝节点分享)_108
-  - US美国(mibei77.com 米贝节点分享)_109
-  - HK香港(mibei77.com 米贝节点分享)
-  - HK香港(mibei77.com 米贝节点分享)_1
-  - HK香港(mibei77.com 米贝节点分享)_2
-  - HK香港(mibei77.com 米贝节点分享)_3
-  - HK香港(mibei77.com 米贝节点分享)_4
-  - HK香港(mibei77.com 米贝节点分享)_5
-  - SG新加坡(mibei77.com 米贝节点分享)_1
-  - SG新加坡(mibei77.com 米贝节点分享)_2
-  - SG新加坡(mibei77.com 米贝节点分享)_3
-  - SG新加坡(mibei77.com 米贝节点分享)_4
-  - GB英国(mibei77.com 米贝节点分享)_1
-  - GB英国(mibei77.com 米贝节点分享)_2
-  - GB英国(mibei77.com 米贝节点分享)_3
-  - GB英国(mibei77.com 米贝节点分享)_4
-  - GB英国(mibei77.com 米贝节点分享)_5
-  - GB英国(mibei77.com 米贝节点分享)_6
-  - GB英国(mibei77.com 米贝节点分享)_7
-  - GB英国(mibei77.com 米贝节点分享)_8
-  - GB英国(mibei77.com 米贝节点分享)_9
-  - GB英国(mibei77.com 米贝节点分享)_10
-  - GB英国(mibei77.com 米贝节点分享)_11
-  - GB英国(mibei77.com 米贝节点分享)_12
-  - GB英国(mibei77.com 米贝节点分享)_13
-  - GB英国(mibei77.com 米贝节点分享)_14
-  - GB英国(mibei77.com 米贝节点分享)_15
-  - GB英国(mibei77.com 米贝节点分享)_16
-  - GB英国(mibei77.com 米贝节点分享)_17
-  - GB英国(mibei77.com 米贝节点分享)_18
-  - GB英国(mibei77.com 米贝节点分享)_19
-  - GB英国(mibei77.com 米贝节点分享)_20
-  - GB英国(mibei77.com 米贝节点分享)_21
-  - GB英国(mibei77.com 米贝节点分享)_22
-  - GB英国(mibei77.com 米贝节点分享)_23
-  - GB英国(mibei77.com 米贝节点分享)_24
-  - GB英国(mibei77.com 米贝节点分享)_25
-  - GB英国(mibei77.com 米贝节点分享)_26
-  - GB英国(mibei77.com 米贝节点分享)_27
-  - GB英国(mibei77.com 米贝节点分享)_28
-  - GB英国(mibei77.com 米贝节点分享)_29
-  - GB英国(mibei77.com 米贝节点分享)_30
-  - GB英国(mibei77.com 米贝节点分享)_31
-  - GB英国(mibei77.com 米贝节点分享)_32
-  - GB英国(mibei77.com 米贝节点分享)_33
-  - GB英国(mibei77.com 米贝节点分享)_34
-  - GB英国(mibei77.com 米贝节点分享)_35
-  - GB英国(mibei77.com 米贝节点分享)_36
-  - GB英国(mibei77.com 米贝节点分享)_37
-  - GB英国(mibei77.com 米贝节点分享)_38
-  - GB英国(mibei77.com 米贝节点分享)_39
-  - GB英国(mibei77.com 米贝节点分享)_40
-  - GB英国(mibei77.com 米贝节点分享)_41
-  - GB英国(mibei77.com 米贝节点分享)_42
-  - GB英国(mibei77.com 米贝节点分享)_43
-  - GB英国(mibei77.com 米贝节点分享)_44
-  - GB英国(mibei77.com 米贝节点分享)_45
-  - GB英国(mibei77.com 米贝节点分享)_46
-  - GB英国(mibei77.com 米贝节点分享)_47
-  - GB英国(mibei77.com 米贝节点分享)_48
-  - GB英国(mibei77.com 米贝节点分享)_49
-  - GB英国(mibei77.com 米贝节点分享)_50
-  - GB英国(mibei77.com 米贝节点分享)_51
-  - GB英国(mibei77.com 米贝节点分享)_52
-  - GB英国(mibei77.com 米贝节点分享)_53
-  - GB英国(mibei77.com 米贝节点分享)_54
-  - GB英国(mibei77.com 米贝节点分享)_55
-  - GB英国(mibei77.com 米贝节点分享)_56
-  - GB英国(mibei77.com 米贝节点分享)_57
-  - GB英国(mibei77.com 米贝节点分享)_58
-  - HK香港(mibei77.com 米贝节点分享)_6
+  - 🇰🇷KR韓國丨yoyapai.com
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_1
+  - 🇰🇷KR韓國丨yoyapai.com_2
+  - 🇰🇷KR韓國丨yoyapai.com_3
+  - 🇳🇱NL荷蘭丨yoyapai.com
+  - 🇨🇭CH臺灣丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_4
+  - 亞太地區
+  - 🇳🇱NL荷蘭丨yoyapai.com_1
+  - 🇺🇸 US美國節點
+  - 亞太地區_1
+  - 英國
+  - 美國
+  - 英國_1
+  - 英國_2
+  - 英國_3
+  - 美國_1
+  - 🇰🇷KR韓國丨yoyapai.com_5
+  - 德國
+  - 德國_1
+  - 亞太地區_2
+  - 英國_4
+  - 英國_5
+  - 🇰🇷KR韓國丨yoyapai.com_6
+  - 英國_6
+  - 英國_7
+  - 🇰🇷KR韓國丨yoyapai.com_7
+  - 🇺🇸 US美國
+  - 英國節點
+  - 英國_8
+  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
+  - 英國節點_1
+  - 🇺🇸 US美國節點_1
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com
+  - 美國節點
+  - 美國_2
+  - 荷蘭節點丨yoyapai.com
+  - 美國節點_1
+  - 英國_9
+  - 英國_10
+  - 英國_11
+  - 🇬🇧 GB英國
+  - 🇬🇧 GB英国
+  - 英國節點_2
+  - 🇱🇹LT立陶宛丨yoyapai.com
+  - 泰國節點丨yoyapai.com
+  - 🇬🇧 英國
+  - 英國_12
+  - 🇺🇸 US美國丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_8
+  - 英國_13
+  - 🇬🇧 GB英國_1
+  - 美國節點_2
+  - 美國_3
+  - 德國_2
+  - 英國_14
+  - 🇸🇪SE瑞典節點丨yoyapai.com
+  - 英國_15
+  - 泰國節點丨yoyapai.com_1
+  - 瑞士節點丨yoyapai.com
+  - 新加坡丨yoyapai.com
+  - 美國_4
+  - 英國_16
+  - 🇳🇱NL荷蘭丨yoyapai.com_2
+  - 🇳🇱NL荷蘭丨yoyapai.com_3
+  - 🇳🇱NL荷蘭丨yoyapai.com_4
+  - 英國_17
+  - 美國丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 瑞士節點丨yoyapai.com_1
+  - 🇰🇷KR韓國丨yoyapai.com_9
+  - 奧地利節點丨yoyapai.com
+  - 西班牙節點🇪🇸ES丨yoyapai.com
+  - 瑞典丨yoyapai.com
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 瑞典節點丨yoyapai.com
+  - 丹麥節點🇩🇰DK丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_7
+  - 🇭🇰 HK香港
+  - 🇳🇱NL荷蘭丨yoyapai.com_8
+  - 捷克節點丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_9
+  - 法國節點丨yoyapai.com
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_2
+  - 拉脫維亞丨yoyapai.com
+  - 俄羅斯節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_10
+  - 俄羅斯節點丨yoyapai.com_1
+  - 俄羅斯節點丨yoyapai.com_2
+  - 荷蘭節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_10
+  - 瑞典節點丨yoyapai.com_1
+  - 意大利丨yoyapai.com
+  - 瑞士節點丨yoyapai.com_2
+  - 瑞典節點丨yoyapai.com_2
+  - 匈牙利節點丨yoyapai.com
+  - 意大利節點🇮🇹IT丨yoyapai.com
+  - 立陶宛節點🇱🇹LT丨yoyapai.com
+  - 瑞典節點丨yoyapai.com_3
+  - 奧地利節點丨yoyapai.com_1
+  - 🇸🇪SE瑞典丨yoyapai.com
+  - 🇸🇪SE瑞典節點丨yoyapai.com_1
+  - 🇧🇪BE比利時丨yoyapai.com
+  - 🇩🇰DK丹麥丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_11
+  - 荷蘭節點丨yoyapai.com_2
+  - 🇳🇱NL荷蘭丨yoyapai.com_12
+  - 🇸🇪SE瑞典節點丨yoyapai.com_2
+  - 🇫🇷FR法國丨yoyapai.com
+  - 美國節點丨yoyapai.com
+  - 美國丨yoyapai.com_1
+  - 美國丨yoyapai.com_2
+  - 美國丨yoyapai.com_3
+  - 🇪🇪EE愛沙尼亞丨yoyapai.com
+  - 🇺🇸 US美国丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_13
+  - 亞太地區_3
+  - 美國_5
+  - 亞太地區_4
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -3031,953 +1691,509 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - DE德国(mibei77.com 米贝节点分享)
-  - GB英国(mibei77.com 米贝节点分享)
-  - SG新加坡(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_1
-  - US美国(mibei77.com 米贝节点分享)_2
-  - US美国(mibei77.com 米贝节点分享)_3
-  - US美国(mibei77.com 米贝节点分享)_4
-  - US美国(mibei77.com 米贝节点分享)_5
-  - US美国(mibei77.com 米贝节点分享)_6
-  - US美国(mibei77.com 米贝节点分享)_7
-  - US美国(mibei77.com 米贝节点分享)_8
-  - US美国(mibei77.com 米贝节点分享)_9
-  - US美国(mibei77.com 米贝节点分享)_10
-  - US美国(mibei77.com 米贝节点分享)_11
-  - US美国(mibei77.com 米贝节点分享)_12
-  - US美国(mibei77.com 米贝节点分享)_13
-  - US美国(mibei77.com 米贝节点分享)_14
-  - US美国(mibei77.com 米贝节点分享)_15
-  - US美国(mibei77.com 米贝节点分享)_16
-  - US美国(mibei77.com 米贝节点分享)_17
-  - US美国(mibei77.com 米贝节点分享)_18
-  - US美国(mibei77.com 米贝节点分享)_19
-  - US美国(mibei77.com 米贝节点分享)_20
-  - US美国(mibei77.com 米贝节点分享)_21
-  - US美国(mibei77.com 米贝节点分享)_22
-  - US美国(mibei77.com 米贝节点分享)_23
-  - US美国(mibei77.com 米贝节点分享)_24
-  - US美国(mibei77.com 米贝节点分享)_25
-  - DE德国(mibei77.com 米贝节点分享)_1
-  - DE德国(mibei77.com 米贝节点分享)_2
-  - DE德国(mibei77.com 米贝节点分享)_3
-  - DE德国(mibei77.com 米贝节点分享)_4
-  - DE德国(mibei77.com 米贝节点分享)_5
-  - DE德国(mibei77.com 米贝节点分享)_6
-  - DE德国(mibei77.com 米贝节点分享)_7
-  - DE德国(mibei77.com 米贝节点分享)_8
-  - DE德国(mibei77.com 米贝节点分享)_9
-  - DE德国(mibei77.com 米贝节点分享)_10
-  - DE德国(mibei77.com 米贝节点分享)_11
-  - FR法国(mibei77.com 米贝节点分享)
-  - FR法国(mibei77.com 米贝节点分享)_1
-  - FR法国(mibei77.com 米贝节点分享)_2
-  - KR韩国(mibei77.com 米贝节点分享)
-  - KR韩国(mibei77.com 米贝节点分享)_1
-  - KR韩国(mibei77.com 米贝节点分享)_2
-  - KR韩国(mibei77.com 米贝节点分享)_3
-  - KR韩国(mibei77.com 米贝节点分享)_4
-  - KR韩国(mibei77.com 米贝节点分享)_5
-  - KR韩国(mibei77.com 米贝节点分享)_6
-  - KR韩国(mibei77.com 米贝节点分享)_7
-  - KR韩国(mibei77.com 米贝节点分享)_8
-  - KR韩国(mibei77.com 米贝节点分享)_9
-  - KR韩国(mibei77.com 米贝节点分享)_10
-  - KR韩国(mibei77.com 米贝节点分享)_11
-  - KR韩国(mibei77.com 米贝节点分享)_12
-  - KR韩国(mibei77.com 米贝节点分享)_13
-  - KR韩国(mibei77.com 米贝节点分享)_14
-  - KR韩国(mibei77.com 米贝节点分享)_15
-  - KR韩国(mibei77.com 米贝节点分享)_16
-  - KR韩国(mibei77.com 米贝节点分享)_17
-  - KR韩国(mibei77.com 米贝节点分享)_18
-  - KR韩国(mibei77.com 米贝节点分享)_19
-  - KR韩国(mibei77.com 米贝节点分享)_20
-  - KR韩国(mibei77.com 米贝节点分享)_21
-  - KR韩国(mibei77.com 米贝节点分享)_22
-  - KR韩国(mibei77.com 米贝节点分享)_23
-  - KR韩国(mibei77.com 米贝节点分享)_24
-  - KR韩国(mibei77.com 米贝节点分享)_25
-  - KR韩国(mibei77.com 米贝节点分享)_26
-  - KR韩国(mibei77.com 米贝节点分享)_27
-  - KR韩国(mibei77.com 米贝节点分享)_28
-  - KR韩国(mibei77.com 米贝节点分享)_29
-  - KR韩国(mibei77.com 米贝节点分享)_30
-  - KR韩国(mibei77.com 米贝节点分享)_31
-  - KR韩国(mibei77.com 米贝节点分享)_32
-  - KR韩国(mibei77.com 米贝节点分享)_33
-  - KR韩国(mibei77.com 米贝节点分享)_34
-  - KR韩国(mibei77.com 米贝节点分享)_35
-  - CA加拿大(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_26
-  - US美国(mibei77.com 米贝节点分享)_27
-  - US美国(mibei77.com 米贝节点分享)_28
-  - US美国(mibei77.com 米贝节点分享)_29
-  - US美国(mibei77.com 米贝节点分享)_30
-  - US美国(mibei77.com 米贝节点分享)_31
-  - US美国(mibei77.com 米贝节点分享)_32
-  - US美国(mibei77.com 米贝节点分享)_33
-  - US美国(mibei77.com 米贝节点分享)_34
-  - US美国(mibei77.com 米贝节点分享)_35
-  - US美国(mibei77.com 米贝节点分享)_36
-  - US美国(mibei77.com 米贝节点分享)_37
-  - US美国(mibei77.com 米贝节点分享)_38
-  - US美国(mibei77.com 米贝节点分享)_39
-  - US美国(mibei77.com 米贝节点分享)_40
-  - US美国(mibei77.com 米贝节点分享)_41
-  - US美国(mibei77.com 米贝节点分享)_42
-  - US美国(mibei77.com 米贝节点分享)_43
-  - US美国(mibei77.com 米贝节点分享)_44
-  - US美国(mibei77.com 米贝节点分享)_45
-  - US美国(mibei77.com 米贝节点分享)_46
-  - US美国(mibei77.com 米贝节点分享)_47
-  - US美国(mibei77.com 米贝节点分享)_48
-  - US美国(mibei77.com 米贝节点分享)_49
-  - US美国(mibei77.com 米贝节点分享)_50
-  - US美国(mibei77.com 米贝节点分享)_51
-  - US美国(mibei77.com 米贝节点分享)_52
-  - US美国(mibei77.com 米贝节点分享)_53
-  - US美国(mibei77.com 米贝节点分享)_54
-  - US美国(mibei77.com 米贝节点分享)_55
-  - US美国(mibei77.com 米贝节点分享)_56
-  - US美国(mibei77.com 米贝节点分享)_57
-  - US美国(mibei77.com 米贝节点分享)_58
-  - US美国(mibei77.com 米贝节点分享)_59
-  - US美国(mibei77.com 米贝节点分享)_60
-  - US美国(mibei77.com 米贝节点分享)_61
-  - US美国(mibei77.com 米贝节点分享)_62
-  - US美国(mibei77.com 米贝节点分享)_63
-  - US美国(mibei77.com 米贝节点分享)_64
-  - US美国(mibei77.com 米贝节点分享)_65
-  - US美国(mibei77.com 米贝节点分享)_66
-  - US美国(mibei77.com 米贝节点分享)_67
-  - US美国(mibei77.com 米贝节点分享)_68
-  - US美国(mibei77.com 米贝节点分享)_69
-  - US美国(mibei77.com 米贝节点分享)_70
-  - US美国(mibei77.com 米贝节点分享)_71
-  - US美国(mibei77.com 米贝节点分享)_72
-  - US美国(mibei77.com 米贝节点分享)_73
-  - US美国(mibei77.com 米贝节点分享)_74
-  - US美国(mibei77.com 米贝节点分享)_75
-  - US美国(mibei77.com 米贝节点分享)_76
-  - US美国(mibei77.com 米贝节点分享)_77
-  - US美国(mibei77.com 米贝节点分享)_78
-  - US美国(mibei77.com 米贝节点分享)_79
-  - US美国(mibei77.com 米贝节点分享)_80
-  - US美国(mibei77.com 米贝节点分享)_81
-  - US美国(mibei77.com 米贝节点分享)_82
-  - US美国(mibei77.com 米贝节点分享)_83
-  - US美国(mibei77.com 米贝节点分享)_84
-  - US美国(mibei77.com 米贝节点分享)_85
-  - US美国(mibei77.com 米贝节点分享)_86
-  - US美国(mibei77.com 米贝节点分享)_87
-  - US美国(mibei77.com 米贝节点分享)_88
-  - US美国(mibei77.com 米贝节点分享)_89
-  - US美国(mibei77.com 米贝节点分享)_90
-  - US美国(mibei77.com 米贝节点分享)_91
-  - US美国(mibei77.com 米贝节点分享)_92
-  - US美国(mibei77.com 米贝节点分享)_93
-  - US美国(mibei77.com 米贝节点分享)_94
-  - US美国(mibei77.com 米贝节点分享)_95
-  - US美国(mibei77.com 米贝节点分享)_96
-  - US美国(mibei77.com 米贝节点分享)_97
-  - US美国(mibei77.com 米贝节点分享)_98
-  - US美国(mibei77.com 米贝节点分享)_99
-  - US美国(mibei77.com 米贝节点分享)_100
-  - US美国(mibei77.com 米贝节点分享)_101
-  - US美国(mibei77.com 米贝节点分享)_102
-  - US美国(mibei77.com 米贝节点分享)_103
-  - US美国(mibei77.com 米贝节点分享)_104
-  - US美国(mibei77.com 米贝节点分享)_105
-  - US美国(mibei77.com 米贝节点分享)_106
-  - US美国(mibei77.com 米贝节点分享)_107
-  - US美国(mibei77.com 米贝节点分享)_108
-  - US美国(mibei77.com 米贝节点分享)_109
-  - HK香港(mibei77.com 米贝节点分享)
-  - HK香港(mibei77.com 米贝节点分享)_1
-  - HK香港(mibei77.com 米贝节点分享)_2
-  - HK香港(mibei77.com 米贝节点分享)_3
-  - HK香港(mibei77.com 米贝节点分享)_4
-  - HK香港(mibei77.com 米贝节点分享)_5
-  - SG新加坡(mibei77.com 米贝节点分享)_1
-  - SG新加坡(mibei77.com 米贝节点分享)_2
-  - SG新加坡(mibei77.com 米贝节点分享)_3
-  - SG新加坡(mibei77.com 米贝节点分享)_4
-  - GB英国(mibei77.com 米贝节点分享)_1
-  - GB英国(mibei77.com 米贝节点分享)_2
-  - GB英国(mibei77.com 米贝节点分享)_3
-  - GB英国(mibei77.com 米贝节点分享)_4
-  - GB英国(mibei77.com 米贝节点分享)_5
-  - GB英国(mibei77.com 米贝节点分享)_6
-  - GB英国(mibei77.com 米贝节点分享)_7
-  - GB英国(mibei77.com 米贝节点分享)_8
-  - GB英国(mibei77.com 米贝节点分享)_9
-  - GB英国(mibei77.com 米贝节点分享)_10
-  - GB英国(mibei77.com 米贝节点分享)_11
-  - GB英国(mibei77.com 米贝节点分享)_12
-  - GB英国(mibei77.com 米贝节点分享)_13
-  - GB英国(mibei77.com 米贝节点分享)_14
-  - GB英国(mibei77.com 米贝节点分享)_15
-  - GB英国(mibei77.com 米贝节点分享)_16
-  - GB英国(mibei77.com 米贝节点分享)_17
-  - GB英国(mibei77.com 米贝节点分享)_18
-  - GB英国(mibei77.com 米贝节点分享)_19
-  - GB英国(mibei77.com 米贝节点分享)_20
-  - GB英国(mibei77.com 米贝节点分享)_21
-  - GB英国(mibei77.com 米贝节点分享)_22
-  - GB英国(mibei77.com 米贝节点分享)_23
-  - GB英国(mibei77.com 米贝节点分享)_24
-  - GB英国(mibei77.com 米贝节点分享)_25
-  - GB英国(mibei77.com 米贝节点分享)_26
-  - GB英国(mibei77.com 米贝节点分享)_27
-  - GB英国(mibei77.com 米贝节点分享)_28
-  - GB英国(mibei77.com 米贝节点分享)_29
-  - GB英国(mibei77.com 米贝节点分享)_30
-  - GB英国(mibei77.com 米贝节点分享)_31
-  - GB英国(mibei77.com 米贝节点分享)_32
-  - GB英国(mibei77.com 米贝节点分享)_33
-  - GB英国(mibei77.com 米贝节点分享)_34
-  - GB英国(mibei77.com 米贝节点分享)_35
-  - GB英国(mibei77.com 米贝节点分享)_36
-  - GB英国(mibei77.com 米贝节点分享)_37
-  - GB英国(mibei77.com 米贝节点分享)_38
-  - GB英国(mibei77.com 米贝节点分享)_39
-  - GB英国(mibei77.com 米贝节点分享)_40
-  - GB英国(mibei77.com 米贝节点分享)_41
-  - GB英国(mibei77.com 米贝节点分享)_42
-  - GB英国(mibei77.com 米贝节点分享)_43
-  - GB英国(mibei77.com 米贝节点分享)_44
-  - GB英国(mibei77.com 米贝节点分享)_45
-  - GB英国(mibei77.com 米贝节点分享)_46
-  - GB英国(mibei77.com 米贝节点分享)_47
-  - GB英国(mibei77.com 米贝节点分享)_48
-  - GB英国(mibei77.com 米贝节点分享)_49
-  - GB英国(mibei77.com 米贝节点分享)_50
-  - GB英国(mibei77.com 米贝节点分享)_51
-  - GB英国(mibei77.com 米贝节点分享)_52
-  - GB英国(mibei77.com 米贝节点分享)_53
-  - GB英国(mibei77.com 米贝节点分享)_54
-  - GB英国(mibei77.com 米贝节点分享)_55
-  - GB英国(mibei77.com 米贝节点分享)_56
-  - GB英国(mibei77.com 米贝节点分享)_57
-  - GB英国(mibei77.com 米贝节点分享)_58
-  - HK香港(mibei77.com 米贝节点分享)_6
+  - 🇰🇷KR韓國丨yoyapai.com
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_1
+  - 🇰🇷KR韓國丨yoyapai.com_2
+  - 🇰🇷KR韓國丨yoyapai.com_3
+  - 🇳🇱NL荷蘭丨yoyapai.com
+  - 🇨🇭CH臺灣丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_4
+  - 亞太地區
+  - 🇳🇱NL荷蘭丨yoyapai.com_1
+  - 🇺🇸 US美國節點
+  - 亞太地區_1
+  - 英國
+  - 美國
+  - 英國_1
+  - 英國_2
+  - 英國_3
+  - 美國_1
+  - 🇰🇷KR韓國丨yoyapai.com_5
+  - 德國
+  - 德國_1
+  - 亞太地區_2
+  - 英國_4
+  - 英國_5
+  - 🇰🇷KR韓國丨yoyapai.com_6
+  - 英國_6
+  - 英國_7
+  - 🇰🇷KR韓國丨yoyapai.com_7
+  - 🇺🇸 US美國
+  - 英國節點
+  - 英國_8
+  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
+  - 英國節點_1
+  - 🇺🇸 US美國節點_1
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com
+  - 美國節點
+  - 美國_2
+  - 荷蘭節點丨yoyapai.com
+  - 美國節點_1
+  - 英國_9
+  - 英國_10
+  - 英國_11
+  - 🇬🇧 GB英國
+  - 🇬🇧 GB英国
+  - 英國節點_2
+  - 🇱🇹LT立陶宛丨yoyapai.com
+  - 泰國節點丨yoyapai.com
+  - 🇬🇧 英國
+  - 英國_12
+  - 🇺🇸 US美國丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_8
+  - 英國_13
+  - 🇬🇧 GB英國_1
+  - 美國節點_2
+  - 美國_3
+  - 德國_2
+  - 英國_14
+  - 🇸🇪SE瑞典節點丨yoyapai.com
+  - 英國_15
+  - 泰國節點丨yoyapai.com_1
+  - 瑞士節點丨yoyapai.com
+  - 新加坡丨yoyapai.com
+  - 美國_4
+  - 英國_16
+  - 🇳🇱NL荷蘭丨yoyapai.com_2
+  - 🇳🇱NL荷蘭丨yoyapai.com_3
+  - 🇳🇱NL荷蘭丨yoyapai.com_4
+  - 英國_17
+  - 美國丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 瑞士節點丨yoyapai.com_1
+  - 🇰🇷KR韓國丨yoyapai.com_9
+  - 奧地利節點丨yoyapai.com
+  - 西班牙節點🇪🇸ES丨yoyapai.com
+  - 瑞典丨yoyapai.com
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 瑞典節點丨yoyapai.com
+  - 丹麥節點🇩🇰DK丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_7
+  - 🇭🇰 HK香港
+  - 🇳🇱NL荷蘭丨yoyapai.com_8
+  - 捷克節點丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_9
+  - 法國節點丨yoyapai.com
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_2
+  - 拉脫維亞丨yoyapai.com
+  - 俄羅斯節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_10
+  - 俄羅斯節點丨yoyapai.com_1
+  - 俄羅斯節點丨yoyapai.com_2
+  - 荷蘭節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_10
+  - 瑞典節點丨yoyapai.com_1
+  - 意大利丨yoyapai.com
+  - 瑞士節點丨yoyapai.com_2
+  - 瑞典節點丨yoyapai.com_2
+  - 匈牙利節點丨yoyapai.com
+  - 意大利節點🇮🇹IT丨yoyapai.com
+  - 立陶宛節點🇱🇹LT丨yoyapai.com
+  - 瑞典節點丨yoyapai.com_3
+  - 奧地利節點丨yoyapai.com_1
+  - 🇸🇪SE瑞典丨yoyapai.com
+  - 🇸🇪SE瑞典節點丨yoyapai.com_1
+  - 🇧🇪BE比利時丨yoyapai.com
+  - 🇩🇰DK丹麥丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_11
+  - 荷蘭節點丨yoyapai.com_2
+  - 🇳🇱NL荷蘭丨yoyapai.com_12
+  - 🇸🇪SE瑞典節點丨yoyapai.com_2
+  - 🇫🇷FR法國丨yoyapai.com
+  - 美國節點丨yoyapai.com
+  - 美國丨yoyapai.com_1
+  - 美國丨yoyapai.com_2
+  - 美國丨yoyapai.com_3
+  - 🇪🇪EE愛沙尼亞丨yoyapai.com
+  - 🇺🇸 US美国丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_13
+  - 亞太地區_3
+  - 美國_5
+  - 亞太地區_4
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - DE德国(mibei77.com 米贝节点分享)
-  - GB英国(mibei77.com 米贝节点分享)
-  - SG新加坡(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_1
-  - US美国(mibei77.com 米贝节点分享)_2
-  - US美国(mibei77.com 米贝节点分享)_3
-  - US美国(mibei77.com 米贝节点分享)_4
-  - US美国(mibei77.com 米贝节点分享)_5
-  - US美国(mibei77.com 米贝节点分享)_6
-  - US美国(mibei77.com 米贝节点分享)_7
-  - US美国(mibei77.com 米贝节点分享)_8
-  - US美国(mibei77.com 米贝节点分享)_9
-  - US美国(mibei77.com 米贝节点分享)_10
-  - US美国(mibei77.com 米贝节点分享)_11
-  - US美国(mibei77.com 米贝节点分享)_12
-  - US美国(mibei77.com 米贝节点分享)_13
-  - US美国(mibei77.com 米贝节点分享)_14
-  - US美国(mibei77.com 米贝节点分享)_15
-  - US美国(mibei77.com 米贝节点分享)_16
-  - US美国(mibei77.com 米贝节点分享)_17
-  - US美国(mibei77.com 米贝节点分享)_18
-  - US美国(mibei77.com 米贝节点分享)_19
-  - US美国(mibei77.com 米贝节点分享)_20
-  - US美国(mibei77.com 米贝节点分享)_21
-  - US美国(mibei77.com 米贝节点分享)_22
-  - US美国(mibei77.com 米贝节点分享)_23
-  - US美国(mibei77.com 米贝节点分享)_24
-  - US美国(mibei77.com 米贝节点分享)_25
-  - DE德国(mibei77.com 米贝节点分享)_1
-  - DE德国(mibei77.com 米贝节点分享)_2
-  - DE德国(mibei77.com 米贝节点分享)_3
-  - DE德国(mibei77.com 米贝节点分享)_4
-  - DE德国(mibei77.com 米贝节点分享)_5
-  - DE德国(mibei77.com 米贝节点分享)_6
-  - DE德国(mibei77.com 米贝节点分享)_7
-  - DE德国(mibei77.com 米贝节点分享)_8
-  - DE德国(mibei77.com 米贝节点分享)_9
-  - DE德国(mibei77.com 米贝节点分享)_10
-  - DE德国(mibei77.com 米贝节点分享)_11
-  - FR法国(mibei77.com 米贝节点分享)
-  - FR法国(mibei77.com 米贝节点分享)_1
-  - FR法国(mibei77.com 米贝节点分享)_2
-  - KR韩国(mibei77.com 米贝节点分享)
-  - KR韩国(mibei77.com 米贝节点分享)_1
-  - KR韩国(mibei77.com 米贝节点分享)_2
-  - KR韩国(mibei77.com 米贝节点分享)_3
-  - KR韩国(mibei77.com 米贝节点分享)_4
-  - KR韩国(mibei77.com 米贝节点分享)_5
-  - KR韩国(mibei77.com 米贝节点分享)_6
-  - KR韩国(mibei77.com 米贝节点分享)_7
-  - KR韩国(mibei77.com 米贝节点分享)_8
-  - KR韩国(mibei77.com 米贝节点分享)_9
-  - KR韩国(mibei77.com 米贝节点分享)_10
-  - KR韩国(mibei77.com 米贝节点分享)_11
-  - KR韩国(mibei77.com 米贝节点分享)_12
-  - KR韩国(mibei77.com 米贝节点分享)_13
-  - KR韩国(mibei77.com 米贝节点分享)_14
-  - KR韩国(mibei77.com 米贝节点分享)_15
-  - KR韩国(mibei77.com 米贝节点分享)_16
-  - KR韩国(mibei77.com 米贝节点分享)_17
-  - KR韩国(mibei77.com 米贝节点分享)_18
-  - KR韩国(mibei77.com 米贝节点分享)_19
-  - KR韩国(mibei77.com 米贝节点分享)_20
-  - KR韩国(mibei77.com 米贝节点分享)_21
-  - KR韩国(mibei77.com 米贝节点分享)_22
-  - KR韩国(mibei77.com 米贝节点分享)_23
-  - KR韩国(mibei77.com 米贝节点分享)_24
-  - KR韩国(mibei77.com 米贝节点分享)_25
-  - KR韩国(mibei77.com 米贝节点分享)_26
-  - KR韩国(mibei77.com 米贝节点分享)_27
-  - KR韩国(mibei77.com 米贝节点分享)_28
-  - KR韩国(mibei77.com 米贝节点分享)_29
-  - KR韩国(mibei77.com 米贝节点分享)_30
-  - KR韩国(mibei77.com 米贝节点分享)_31
-  - KR韩国(mibei77.com 米贝节点分享)_32
-  - KR韩国(mibei77.com 米贝节点分享)_33
-  - KR韩国(mibei77.com 米贝节点分享)_34
-  - KR韩国(mibei77.com 米贝节点分享)_35
-  - CA加拿大(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_26
-  - US美国(mibei77.com 米贝节点分享)_27
-  - US美国(mibei77.com 米贝节点分享)_28
-  - US美国(mibei77.com 米贝节点分享)_29
-  - US美国(mibei77.com 米贝节点分享)_30
-  - US美国(mibei77.com 米贝节点分享)_31
-  - US美国(mibei77.com 米贝节点分享)_32
-  - US美国(mibei77.com 米贝节点分享)_33
-  - US美国(mibei77.com 米贝节点分享)_34
-  - US美国(mibei77.com 米贝节点分享)_35
-  - US美国(mibei77.com 米贝节点分享)_36
-  - US美国(mibei77.com 米贝节点分享)_37
-  - US美国(mibei77.com 米贝节点分享)_38
-  - US美国(mibei77.com 米贝节点分享)_39
-  - US美国(mibei77.com 米贝节点分享)_40
-  - US美国(mibei77.com 米贝节点分享)_41
-  - US美国(mibei77.com 米贝节点分享)_42
-  - US美国(mibei77.com 米贝节点分享)_43
-  - US美国(mibei77.com 米贝节点分享)_44
-  - US美国(mibei77.com 米贝节点分享)_45
-  - US美国(mibei77.com 米贝节点分享)_46
-  - US美国(mibei77.com 米贝节点分享)_47
-  - US美国(mibei77.com 米贝节点分享)_48
-  - US美国(mibei77.com 米贝节点分享)_49
-  - US美国(mibei77.com 米贝节点分享)_50
-  - US美国(mibei77.com 米贝节点分享)_51
-  - US美国(mibei77.com 米贝节点分享)_52
-  - US美国(mibei77.com 米贝节点分享)_53
-  - US美国(mibei77.com 米贝节点分享)_54
-  - US美国(mibei77.com 米贝节点分享)_55
-  - US美国(mibei77.com 米贝节点分享)_56
-  - US美国(mibei77.com 米贝节点分享)_57
-  - US美国(mibei77.com 米贝节点分享)_58
-  - US美国(mibei77.com 米贝节点分享)_59
-  - US美国(mibei77.com 米贝节点分享)_60
-  - US美国(mibei77.com 米贝节点分享)_61
-  - US美国(mibei77.com 米贝节点分享)_62
-  - US美国(mibei77.com 米贝节点分享)_63
-  - US美国(mibei77.com 米贝节点分享)_64
-  - US美国(mibei77.com 米贝节点分享)_65
-  - US美国(mibei77.com 米贝节点分享)_66
-  - US美国(mibei77.com 米贝节点分享)_67
-  - US美国(mibei77.com 米贝节点分享)_68
-  - US美国(mibei77.com 米贝节点分享)_69
-  - US美国(mibei77.com 米贝节点分享)_70
-  - US美国(mibei77.com 米贝节点分享)_71
-  - US美国(mibei77.com 米贝节点分享)_72
-  - US美国(mibei77.com 米贝节点分享)_73
-  - US美国(mibei77.com 米贝节点分享)_74
-  - US美国(mibei77.com 米贝节点分享)_75
-  - US美国(mibei77.com 米贝节点分享)_76
-  - US美国(mibei77.com 米贝节点分享)_77
-  - US美国(mibei77.com 米贝节点分享)_78
-  - US美国(mibei77.com 米贝节点分享)_79
-  - US美国(mibei77.com 米贝节点分享)_80
-  - US美国(mibei77.com 米贝节点分享)_81
-  - US美国(mibei77.com 米贝节点分享)_82
-  - US美国(mibei77.com 米贝节点分享)_83
-  - US美国(mibei77.com 米贝节点分享)_84
-  - US美国(mibei77.com 米贝节点分享)_85
-  - US美国(mibei77.com 米贝节点分享)_86
-  - US美国(mibei77.com 米贝节点分享)_87
-  - US美国(mibei77.com 米贝节点分享)_88
-  - US美国(mibei77.com 米贝节点分享)_89
-  - US美国(mibei77.com 米贝节点分享)_90
-  - US美国(mibei77.com 米贝节点分享)_91
-  - US美国(mibei77.com 米贝节点分享)_92
-  - US美国(mibei77.com 米贝节点分享)_93
-  - US美国(mibei77.com 米贝节点分享)_94
-  - US美国(mibei77.com 米贝节点分享)_95
-  - US美国(mibei77.com 米贝节点分享)_96
-  - US美国(mibei77.com 米贝节点分享)_97
-  - US美国(mibei77.com 米贝节点分享)_98
-  - US美国(mibei77.com 米贝节点分享)_99
-  - US美国(mibei77.com 米贝节点分享)_100
-  - US美国(mibei77.com 米贝节点分享)_101
-  - US美国(mibei77.com 米贝节点分享)_102
-  - US美国(mibei77.com 米贝节点分享)_103
-  - US美国(mibei77.com 米贝节点分享)_104
-  - US美国(mibei77.com 米贝节点分享)_105
-  - US美国(mibei77.com 米贝节点分享)_106
-  - US美国(mibei77.com 米贝节点分享)_107
-  - US美国(mibei77.com 米贝节点分享)_108
-  - US美国(mibei77.com 米贝节点分享)_109
-  - HK香港(mibei77.com 米贝节点分享)
-  - HK香港(mibei77.com 米贝节点分享)_1
-  - HK香港(mibei77.com 米贝节点分享)_2
-  - HK香港(mibei77.com 米贝节点分享)_3
-  - HK香港(mibei77.com 米贝节点分享)_4
-  - HK香港(mibei77.com 米贝节点分享)_5
-  - SG新加坡(mibei77.com 米贝节点分享)_1
-  - SG新加坡(mibei77.com 米贝节点分享)_2
-  - SG新加坡(mibei77.com 米贝节点分享)_3
-  - SG新加坡(mibei77.com 米贝节点分享)_4
-  - GB英国(mibei77.com 米贝节点分享)_1
-  - GB英国(mibei77.com 米贝节点分享)_2
-  - GB英国(mibei77.com 米贝节点分享)_3
-  - GB英国(mibei77.com 米贝节点分享)_4
-  - GB英国(mibei77.com 米贝节点分享)_5
-  - GB英国(mibei77.com 米贝节点分享)_6
-  - GB英国(mibei77.com 米贝节点分享)_7
-  - GB英国(mibei77.com 米贝节点分享)_8
-  - GB英国(mibei77.com 米贝节点分享)_9
-  - GB英国(mibei77.com 米贝节点分享)_10
-  - GB英国(mibei77.com 米贝节点分享)_11
-  - GB英国(mibei77.com 米贝节点分享)_12
-  - GB英国(mibei77.com 米贝节点分享)_13
-  - GB英国(mibei77.com 米贝节点分享)_14
-  - GB英国(mibei77.com 米贝节点分享)_15
-  - GB英国(mibei77.com 米贝节点分享)_16
-  - GB英国(mibei77.com 米贝节点分享)_17
-  - GB英国(mibei77.com 米贝节点分享)_18
-  - GB英国(mibei77.com 米贝节点分享)_19
-  - GB英国(mibei77.com 米贝节点分享)_20
-  - GB英国(mibei77.com 米贝节点分享)_21
-  - GB英国(mibei77.com 米贝节点分享)_22
-  - GB英国(mibei77.com 米贝节点分享)_23
-  - GB英国(mibei77.com 米贝节点分享)_24
-  - GB英国(mibei77.com 米贝节点分享)_25
-  - GB英国(mibei77.com 米贝节点分享)_26
-  - GB英国(mibei77.com 米贝节点分享)_27
-  - GB英国(mibei77.com 米贝节点分享)_28
-  - GB英国(mibei77.com 米贝节点分享)_29
-  - GB英国(mibei77.com 米贝节点分享)_30
-  - GB英国(mibei77.com 米贝节点分享)_31
-  - GB英国(mibei77.com 米贝节点分享)_32
-  - GB英国(mibei77.com 米贝节点分享)_33
-  - GB英国(mibei77.com 米贝节点分享)_34
-  - GB英国(mibei77.com 米贝节点分享)_35
-  - GB英国(mibei77.com 米贝节点分享)_36
-  - GB英国(mibei77.com 米贝节点分享)_37
-  - GB英国(mibei77.com 米贝节点分享)_38
-  - GB英国(mibei77.com 米贝节点分享)_39
-  - GB英国(mibei77.com 米贝节点分享)_40
-  - GB英国(mibei77.com 米贝节点分享)_41
-  - GB英国(mibei77.com 米贝节点分享)_42
-  - GB英国(mibei77.com 米贝节点分享)_43
-  - GB英国(mibei77.com 米贝节点分享)_44
-  - GB英国(mibei77.com 米贝节点分享)_45
-  - GB英国(mibei77.com 米贝节点分享)_46
-  - GB英国(mibei77.com 米贝节点分享)_47
-  - GB英国(mibei77.com 米贝节点分享)_48
-  - GB英国(mibei77.com 米贝节点分享)_49
-  - GB英国(mibei77.com 米贝节点分享)_50
-  - GB英国(mibei77.com 米贝节点分享)_51
-  - GB英国(mibei77.com 米贝节点分享)_52
-  - GB英国(mibei77.com 米贝节点分享)_53
-  - GB英国(mibei77.com 米贝节点分享)_54
-  - GB英国(mibei77.com 米贝节点分享)_55
-  - GB英国(mibei77.com 米贝节点分享)_56
-  - GB英国(mibei77.com 米贝节点分享)_57
-  - GB英国(mibei77.com 米贝节点分享)_58
-  - HK香港(mibei77.com 米贝节点分享)_6
+  - 🇰🇷KR韓國丨yoyapai.com
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_1
+  - 🇰🇷KR韓國丨yoyapai.com_2
+  - 🇰🇷KR韓國丨yoyapai.com_3
+  - 🇳🇱NL荷蘭丨yoyapai.com
+  - 🇨🇭CH臺灣丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_4
+  - 亞太地區
+  - 🇳🇱NL荷蘭丨yoyapai.com_1
+  - 🇺🇸 US美國節點
+  - 亞太地區_1
+  - 英國
+  - 美國
+  - 英國_1
+  - 英國_2
+  - 英國_3
+  - 美國_1
+  - 🇰🇷KR韓國丨yoyapai.com_5
+  - 德國
+  - 德國_1
+  - 亞太地區_2
+  - 英國_4
+  - 英國_5
+  - 🇰🇷KR韓國丨yoyapai.com_6
+  - 英國_6
+  - 英國_7
+  - 🇰🇷KR韓國丨yoyapai.com_7
+  - 🇺🇸 US美國
+  - 英國節點
+  - 英國_8
+  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
+  - 英國節點_1
+  - 🇺🇸 US美國節點_1
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com
+  - 美國節點
+  - 美國_2
+  - 荷蘭節點丨yoyapai.com
+  - 美國節點_1
+  - 英國_9
+  - 英國_10
+  - 英國_11
+  - 🇬🇧 GB英國
+  - 🇬🇧 GB英国
+  - 英國節點_2
+  - 🇱🇹LT立陶宛丨yoyapai.com
+  - 泰國節點丨yoyapai.com
+  - 🇬🇧 英國
+  - 英國_12
+  - 🇺🇸 US美國丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_8
+  - 英國_13
+  - 🇬🇧 GB英國_1
+  - 美國節點_2
+  - 美國_3
+  - 德國_2
+  - 英國_14
+  - 🇸🇪SE瑞典節點丨yoyapai.com
+  - 英國_15
+  - 泰國節點丨yoyapai.com_1
+  - 瑞士節點丨yoyapai.com
+  - 新加坡丨yoyapai.com
+  - 美國_4
+  - 英國_16
+  - 🇳🇱NL荷蘭丨yoyapai.com_2
+  - 🇳🇱NL荷蘭丨yoyapai.com_3
+  - 🇳🇱NL荷蘭丨yoyapai.com_4
+  - 英國_17
+  - 美國丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 瑞士節點丨yoyapai.com_1
+  - 🇰🇷KR韓國丨yoyapai.com_9
+  - 奧地利節點丨yoyapai.com
+  - 西班牙節點🇪🇸ES丨yoyapai.com
+  - 瑞典丨yoyapai.com
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 瑞典節點丨yoyapai.com
+  - 丹麥節點🇩🇰DK丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_7
+  - 🇭🇰 HK香港
+  - 🇳🇱NL荷蘭丨yoyapai.com_8
+  - 捷克節點丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_9
+  - 法國節點丨yoyapai.com
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_2
+  - 拉脫維亞丨yoyapai.com
+  - 俄羅斯節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_10
+  - 俄羅斯節點丨yoyapai.com_1
+  - 俄羅斯節點丨yoyapai.com_2
+  - 荷蘭節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_10
+  - 瑞典節點丨yoyapai.com_1
+  - 意大利丨yoyapai.com
+  - 瑞士節點丨yoyapai.com_2
+  - 瑞典節點丨yoyapai.com_2
+  - 匈牙利節點丨yoyapai.com
+  - 意大利節點🇮🇹IT丨yoyapai.com
+  - 立陶宛節點🇱🇹LT丨yoyapai.com
+  - 瑞典節點丨yoyapai.com_3
+  - 奧地利節點丨yoyapai.com_1
+  - 🇸🇪SE瑞典丨yoyapai.com
+  - 🇸🇪SE瑞典節點丨yoyapai.com_1
+  - 🇧🇪BE比利時丨yoyapai.com
+  - 🇩🇰DK丹麥丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_11
+  - 荷蘭節點丨yoyapai.com_2
+  - 🇳🇱NL荷蘭丨yoyapai.com_12
+  - 🇸🇪SE瑞典節點丨yoyapai.com_2
+  - 🇫🇷FR法國丨yoyapai.com
+  - 美國節點丨yoyapai.com
+  - 美國丨yoyapai.com_1
+  - 美國丨yoyapai.com_2
+  - 美國丨yoyapai.com_3
+  - 🇪🇪EE愛沙尼亞丨yoyapai.com
+  - 🇺🇸 US美国丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_13
+  - 亞太地區_3
+  - 美國_5
+  - 亞太地區_4
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - DE德国(mibei77.com 米贝节点分享)
-  - GB英国(mibei77.com 米贝节点分享)
-  - SG新加坡(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_1
-  - US美国(mibei77.com 米贝节点分享)_2
-  - US美国(mibei77.com 米贝节点分享)_3
-  - US美国(mibei77.com 米贝节点分享)_4
-  - US美国(mibei77.com 米贝节点分享)_5
-  - US美国(mibei77.com 米贝节点分享)_6
-  - US美国(mibei77.com 米贝节点分享)_7
-  - US美国(mibei77.com 米贝节点分享)_8
-  - US美国(mibei77.com 米贝节点分享)_9
-  - US美国(mibei77.com 米贝节点分享)_10
-  - US美国(mibei77.com 米贝节点分享)_11
-  - US美国(mibei77.com 米贝节点分享)_12
-  - US美国(mibei77.com 米贝节点分享)_13
-  - US美国(mibei77.com 米贝节点分享)_14
-  - US美国(mibei77.com 米贝节点分享)_15
-  - US美国(mibei77.com 米贝节点分享)_16
-  - US美国(mibei77.com 米贝节点分享)_17
-  - US美国(mibei77.com 米贝节点分享)_18
-  - US美国(mibei77.com 米贝节点分享)_19
-  - US美国(mibei77.com 米贝节点分享)_20
-  - US美国(mibei77.com 米贝节点分享)_21
-  - US美国(mibei77.com 米贝节点分享)_22
-  - US美国(mibei77.com 米贝节点分享)_23
-  - US美国(mibei77.com 米贝节点分享)_24
-  - US美国(mibei77.com 米贝节点分享)_25
-  - DE德国(mibei77.com 米贝节点分享)_1
-  - DE德国(mibei77.com 米贝节点分享)_2
-  - DE德国(mibei77.com 米贝节点分享)_3
-  - DE德国(mibei77.com 米贝节点分享)_4
-  - DE德国(mibei77.com 米贝节点分享)_5
-  - DE德国(mibei77.com 米贝节点分享)_6
-  - DE德国(mibei77.com 米贝节点分享)_7
-  - DE德国(mibei77.com 米贝节点分享)_8
-  - DE德国(mibei77.com 米贝节点分享)_9
-  - DE德国(mibei77.com 米贝节点分享)_10
-  - DE德国(mibei77.com 米贝节点分享)_11
-  - FR法国(mibei77.com 米贝节点分享)
-  - FR法国(mibei77.com 米贝节点分享)_1
-  - FR法国(mibei77.com 米贝节点分享)_2
-  - KR韩国(mibei77.com 米贝节点分享)
-  - KR韩国(mibei77.com 米贝节点分享)_1
-  - KR韩国(mibei77.com 米贝节点分享)_2
-  - KR韩国(mibei77.com 米贝节点分享)_3
-  - KR韩国(mibei77.com 米贝节点分享)_4
-  - KR韩国(mibei77.com 米贝节点分享)_5
-  - KR韩国(mibei77.com 米贝节点分享)_6
-  - KR韩国(mibei77.com 米贝节点分享)_7
-  - KR韩国(mibei77.com 米贝节点分享)_8
-  - KR韩国(mibei77.com 米贝节点分享)_9
-  - KR韩国(mibei77.com 米贝节点分享)_10
-  - KR韩国(mibei77.com 米贝节点分享)_11
-  - KR韩国(mibei77.com 米贝节点分享)_12
-  - KR韩国(mibei77.com 米贝节点分享)_13
-  - KR韩国(mibei77.com 米贝节点分享)_14
-  - KR韩国(mibei77.com 米贝节点分享)_15
-  - KR韩国(mibei77.com 米贝节点分享)_16
-  - KR韩国(mibei77.com 米贝节点分享)_17
-  - KR韩国(mibei77.com 米贝节点分享)_18
-  - KR韩国(mibei77.com 米贝节点分享)_19
-  - KR韩国(mibei77.com 米贝节点分享)_20
-  - KR韩国(mibei77.com 米贝节点分享)_21
-  - KR韩国(mibei77.com 米贝节点分享)_22
-  - KR韩国(mibei77.com 米贝节点分享)_23
-  - KR韩国(mibei77.com 米贝节点分享)_24
-  - KR韩国(mibei77.com 米贝节点分享)_25
-  - KR韩国(mibei77.com 米贝节点分享)_26
-  - KR韩国(mibei77.com 米贝节点分享)_27
-  - KR韩国(mibei77.com 米贝节点分享)_28
-  - KR韩国(mibei77.com 米贝节点分享)_29
-  - KR韩国(mibei77.com 米贝节点分享)_30
-  - KR韩国(mibei77.com 米贝节点分享)_31
-  - KR韩国(mibei77.com 米贝节点分享)_32
-  - KR韩国(mibei77.com 米贝节点分享)_33
-  - KR韩国(mibei77.com 米贝节点分享)_34
-  - KR韩国(mibei77.com 米贝节点分享)_35
-  - CA加拿大(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_26
-  - US美国(mibei77.com 米贝节点分享)_27
-  - US美国(mibei77.com 米贝节点分享)_28
-  - US美国(mibei77.com 米贝节点分享)_29
-  - US美国(mibei77.com 米贝节点分享)_30
-  - US美国(mibei77.com 米贝节点分享)_31
-  - US美国(mibei77.com 米贝节点分享)_32
-  - US美国(mibei77.com 米贝节点分享)_33
-  - US美国(mibei77.com 米贝节点分享)_34
-  - US美国(mibei77.com 米贝节点分享)_35
-  - US美国(mibei77.com 米贝节点分享)_36
-  - US美国(mibei77.com 米贝节点分享)_37
-  - US美国(mibei77.com 米贝节点分享)_38
-  - US美国(mibei77.com 米贝节点分享)_39
-  - US美国(mibei77.com 米贝节点分享)_40
-  - US美国(mibei77.com 米贝节点分享)_41
-  - US美国(mibei77.com 米贝节点分享)_42
-  - US美国(mibei77.com 米贝节点分享)_43
-  - US美国(mibei77.com 米贝节点分享)_44
-  - US美国(mibei77.com 米贝节点分享)_45
-  - US美国(mibei77.com 米贝节点分享)_46
-  - US美国(mibei77.com 米贝节点分享)_47
-  - US美国(mibei77.com 米贝节点分享)_48
-  - US美国(mibei77.com 米贝节点分享)_49
-  - US美国(mibei77.com 米贝节点分享)_50
-  - US美国(mibei77.com 米贝节点分享)_51
-  - US美国(mibei77.com 米贝节点分享)_52
-  - US美国(mibei77.com 米贝节点分享)_53
-  - US美国(mibei77.com 米贝节点分享)_54
-  - US美国(mibei77.com 米贝节点分享)_55
-  - US美国(mibei77.com 米贝节点分享)_56
-  - US美国(mibei77.com 米贝节点分享)_57
-  - US美国(mibei77.com 米贝节点分享)_58
-  - US美国(mibei77.com 米贝节点分享)_59
-  - US美国(mibei77.com 米贝节点分享)_60
-  - US美国(mibei77.com 米贝节点分享)_61
-  - US美国(mibei77.com 米贝节点分享)_62
-  - US美国(mibei77.com 米贝节点分享)_63
-  - US美国(mibei77.com 米贝节点分享)_64
-  - US美国(mibei77.com 米贝节点分享)_65
-  - US美国(mibei77.com 米贝节点分享)_66
-  - US美国(mibei77.com 米贝节点分享)_67
-  - US美国(mibei77.com 米贝节点分享)_68
-  - US美国(mibei77.com 米贝节点分享)_69
-  - US美国(mibei77.com 米贝节点分享)_70
-  - US美国(mibei77.com 米贝节点分享)_71
-  - US美国(mibei77.com 米贝节点分享)_72
-  - US美国(mibei77.com 米贝节点分享)_73
-  - US美国(mibei77.com 米贝节点分享)_74
-  - US美国(mibei77.com 米贝节点分享)_75
-  - US美国(mibei77.com 米贝节点分享)_76
-  - US美国(mibei77.com 米贝节点分享)_77
-  - US美国(mibei77.com 米贝节点分享)_78
-  - US美国(mibei77.com 米贝节点分享)_79
-  - US美国(mibei77.com 米贝节点分享)_80
-  - US美国(mibei77.com 米贝节点分享)_81
-  - US美国(mibei77.com 米贝节点分享)_82
-  - US美国(mibei77.com 米贝节点分享)_83
-  - US美国(mibei77.com 米贝节点分享)_84
-  - US美国(mibei77.com 米贝节点分享)_85
-  - US美国(mibei77.com 米贝节点分享)_86
-  - US美国(mibei77.com 米贝节点分享)_87
-  - US美国(mibei77.com 米贝节点分享)_88
-  - US美国(mibei77.com 米贝节点分享)_89
-  - US美国(mibei77.com 米贝节点分享)_90
-  - US美国(mibei77.com 米贝节点分享)_91
-  - US美国(mibei77.com 米贝节点分享)_92
-  - US美国(mibei77.com 米贝节点分享)_93
-  - US美国(mibei77.com 米贝节点分享)_94
-  - US美国(mibei77.com 米贝节点分享)_95
-  - US美国(mibei77.com 米贝节点分享)_96
-  - US美国(mibei77.com 米贝节点分享)_97
-  - US美国(mibei77.com 米贝节点分享)_98
-  - US美国(mibei77.com 米贝节点分享)_99
-  - US美国(mibei77.com 米贝节点分享)_100
-  - US美国(mibei77.com 米贝节点分享)_101
-  - US美国(mibei77.com 米贝节点分享)_102
-  - US美国(mibei77.com 米贝节点分享)_103
-  - US美国(mibei77.com 米贝节点分享)_104
-  - US美国(mibei77.com 米贝节点分享)_105
-  - US美国(mibei77.com 米贝节点分享)_106
-  - US美国(mibei77.com 米贝节点分享)_107
-  - US美国(mibei77.com 米贝节点分享)_108
-  - US美国(mibei77.com 米贝节点分享)_109
-  - HK香港(mibei77.com 米贝节点分享)
-  - HK香港(mibei77.com 米贝节点分享)_1
-  - HK香港(mibei77.com 米贝节点分享)_2
-  - HK香港(mibei77.com 米贝节点分享)_3
-  - HK香港(mibei77.com 米贝节点分享)_4
-  - HK香港(mibei77.com 米贝节点分享)_5
-  - SG新加坡(mibei77.com 米贝节点分享)_1
-  - SG新加坡(mibei77.com 米贝节点分享)_2
-  - SG新加坡(mibei77.com 米贝节点分享)_3
-  - SG新加坡(mibei77.com 米贝节点分享)_4
-  - GB英国(mibei77.com 米贝节点分享)_1
-  - GB英国(mibei77.com 米贝节点分享)_2
-  - GB英国(mibei77.com 米贝节点分享)_3
-  - GB英国(mibei77.com 米贝节点分享)_4
-  - GB英国(mibei77.com 米贝节点分享)_5
-  - GB英国(mibei77.com 米贝节点分享)_6
-  - GB英国(mibei77.com 米贝节点分享)_7
-  - GB英国(mibei77.com 米贝节点分享)_8
-  - GB英国(mibei77.com 米贝节点分享)_9
-  - GB英国(mibei77.com 米贝节点分享)_10
-  - GB英国(mibei77.com 米贝节点分享)_11
-  - GB英国(mibei77.com 米贝节点分享)_12
-  - GB英国(mibei77.com 米贝节点分享)_13
-  - GB英国(mibei77.com 米贝节点分享)_14
-  - GB英国(mibei77.com 米贝节点分享)_15
-  - GB英国(mibei77.com 米贝节点分享)_16
-  - GB英国(mibei77.com 米贝节点分享)_17
-  - GB英国(mibei77.com 米贝节点分享)_18
-  - GB英国(mibei77.com 米贝节点分享)_19
-  - GB英国(mibei77.com 米贝节点分享)_20
-  - GB英国(mibei77.com 米贝节点分享)_21
-  - GB英国(mibei77.com 米贝节点分享)_22
-  - GB英国(mibei77.com 米贝节点分享)_23
-  - GB英国(mibei77.com 米贝节点分享)_24
-  - GB英国(mibei77.com 米贝节点分享)_25
-  - GB英国(mibei77.com 米贝节点分享)_26
-  - GB英国(mibei77.com 米贝节点分享)_27
-  - GB英国(mibei77.com 米贝节点分享)_28
-  - GB英国(mibei77.com 米贝节点分享)_29
-  - GB英国(mibei77.com 米贝节点分享)_30
-  - GB英国(mibei77.com 米贝节点分享)_31
-  - GB英国(mibei77.com 米贝节点分享)_32
-  - GB英国(mibei77.com 米贝节点分享)_33
-  - GB英国(mibei77.com 米贝节点分享)_34
-  - GB英国(mibei77.com 米贝节点分享)_35
-  - GB英国(mibei77.com 米贝节点分享)_36
-  - GB英国(mibei77.com 米贝节点分享)_37
-  - GB英国(mibei77.com 米贝节点分享)_38
-  - GB英国(mibei77.com 米贝节点分享)_39
-  - GB英国(mibei77.com 米贝节点分享)_40
-  - GB英国(mibei77.com 米贝节点分享)_41
-  - GB英国(mibei77.com 米贝节点分享)_42
-  - GB英国(mibei77.com 米贝节点分享)_43
-  - GB英国(mibei77.com 米贝节点分享)_44
-  - GB英国(mibei77.com 米贝节点分享)_45
-  - GB英国(mibei77.com 米贝节点分享)_46
-  - GB英国(mibei77.com 米贝节点分享)_47
-  - GB英国(mibei77.com 米贝节点分享)_48
-  - GB英国(mibei77.com 米贝节点分享)_49
-  - GB英国(mibei77.com 米贝节点分享)_50
-  - GB英国(mibei77.com 米贝节点分享)_51
-  - GB英国(mibei77.com 米贝节点分享)_52
-  - GB英国(mibei77.com 米贝节点分享)_53
-  - GB英国(mibei77.com 米贝节点分享)_54
-  - GB英国(mibei77.com 米贝节点分享)_55
-  - GB英国(mibei77.com 米贝节点分享)_56
-  - GB英国(mibei77.com 米贝节点分享)_57
-  - GB英国(mibei77.com 米贝节点分享)_58
-  - HK香港(mibei77.com 米贝节点分享)_6
+  - 🇰🇷KR韓國丨yoyapai.com
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_1
+  - 🇰🇷KR韓國丨yoyapai.com_2
+  - 🇰🇷KR韓國丨yoyapai.com_3
+  - 🇳🇱NL荷蘭丨yoyapai.com
+  - 🇨🇭CH臺灣丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_4
+  - 亞太地區
+  - 🇳🇱NL荷蘭丨yoyapai.com_1
+  - 🇺🇸 US美國節點
+  - 亞太地區_1
+  - 英國
+  - 美國
+  - 英國_1
+  - 英國_2
+  - 英國_3
+  - 美國_1
+  - 🇰🇷KR韓國丨yoyapai.com_5
+  - 德國
+  - 德國_1
+  - 亞太地區_2
+  - 英國_4
+  - 英國_5
+  - 🇰🇷KR韓國丨yoyapai.com_6
+  - 英國_6
+  - 英國_7
+  - 🇰🇷KR韓國丨yoyapai.com_7
+  - 🇺🇸 US美國
+  - 英國節點
+  - 英國_8
+  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
+  - 英國節點_1
+  - 🇺🇸 US美國節點_1
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com
+  - 美國節點
+  - 美國_2
+  - 荷蘭節點丨yoyapai.com
+  - 美國節點_1
+  - 英國_9
+  - 英國_10
+  - 英國_11
+  - 🇬🇧 GB英國
+  - 🇬🇧 GB英国
+  - 英國節點_2
+  - 🇱🇹LT立陶宛丨yoyapai.com
+  - 泰國節點丨yoyapai.com
+  - 🇬🇧 英國
+  - 英國_12
+  - 🇺🇸 US美國丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_8
+  - 英國_13
+  - 🇬🇧 GB英國_1
+  - 美國節點_2
+  - 美國_3
+  - 德國_2
+  - 英國_14
+  - 🇸🇪SE瑞典節點丨yoyapai.com
+  - 英國_15
+  - 泰國節點丨yoyapai.com_1
+  - 瑞士節點丨yoyapai.com
+  - 新加坡丨yoyapai.com
+  - 美國_4
+  - 英國_16
+  - 🇳🇱NL荷蘭丨yoyapai.com_2
+  - 🇳🇱NL荷蘭丨yoyapai.com_3
+  - 🇳🇱NL荷蘭丨yoyapai.com_4
+  - 英國_17
+  - 美國丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 瑞士節點丨yoyapai.com_1
+  - 🇰🇷KR韓國丨yoyapai.com_9
+  - 奧地利節點丨yoyapai.com
+  - 西班牙節點🇪🇸ES丨yoyapai.com
+  - 瑞典丨yoyapai.com
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 瑞典節點丨yoyapai.com
+  - 丹麥節點🇩🇰DK丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_7
+  - 🇭🇰 HK香港
+  - 🇳🇱NL荷蘭丨yoyapai.com_8
+  - 捷克節點丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_9
+  - 法國節點丨yoyapai.com
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_2
+  - 拉脫維亞丨yoyapai.com
+  - 俄羅斯節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_10
+  - 俄羅斯節點丨yoyapai.com_1
+  - 俄羅斯節點丨yoyapai.com_2
+  - 荷蘭節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_10
+  - 瑞典節點丨yoyapai.com_1
+  - 意大利丨yoyapai.com
+  - 瑞士節點丨yoyapai.com_2
+  - 瑞典節點丨yoyapai.com_2
+  - 匈牙利節點丨yoyapai.com
+  - 意大利節點🇮🇹IT丨yoyapai.com
+  - 立陶宛節點🇱🇹LT丨yoyapai.com
+  - 瑞典節點丨yoyapai.com_3
+  - 奧地利節點丨yoyapai.com_1
+  - 🇸🇪SE瑞典丨yoyapai.com
+  - 🇸🇪SE瑞典節點丨yoyapai.com_1
+  - 🇧🇪BE比利時丨yoyapai.com
+  - 🇩🇰DK丹麥丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_11
+  - 荷蘭節點丨yoyapai.com_2
+  - 🇳🇱NL荷蘭丨yoyapai.com_12
+  - 🇸🇪SE瑞典節點丨yoyapai.com_2
+  - 🇫🇷FR法國丨yoyapai.com
+  - 美國節點丨yoyapai.com
+  - 美國丨yoyapai.com_1
+  - 美國丨yoyapai.com_2
+  - 美國丨yoyapai.com_3
+  - 🇪🇪EE愛沙尼亞丨yoyapai.com
+  - 🇺🇸 US美国丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_13
+  - 亞太地區_3
+  - 美國_5
+  - 亞太地區_4
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - DE德国(mibei77.com 米贝节点分享)
-  - GB英国(mibei77.com 米贝节点分享)
-  - SG新加坡(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_1
-  - US美国(mibei77.com 米贝节点分享)_2
-  - US美国(mibei77.com 米贝节点分享)_3
-  - US美国(mibei77.com 米贝节点分享)_4
-  - US美国(mibei77.com 米贝节点分享)_5
-  - US美国(mibei77.com 米贝节点分享)_6
-  - US美国(mibei77.com 米贝节点分享)_7
-  - US美国(mibei77.com 米贝节点分享)_8
-  - US美国(mibei77.com 米贝节点分享)_9
-  - US美国(mibei77.com 米贝节点分享)_10
-  - US美国(mibei77.com 米贝节点分享)_11
-  - US美国(mibei77.com 米贝节点分享)_12
-  - US美国(mibei77.com 米贝节点分享)_13
-  - US美国(mibei77.com 米贝节点分享)_14
-  - US美国(mibei77.com 米贝节点分享)_15
-  - US美国(mibei77.com 米贝节点分享)_16
-  - US美国(mibei77.com 米贝节点分享)_17
-  - US美国(mibei77.com 米贝节点分享)_18
-  - US美国(mibei77.com 米贝节点分享)_19
-  - US美国(mibei77.com 米贝节点分享)_20
-  - US美国(mibei77.com 米贝节点分享)_21
-  - US美国(mibei77.com 米贝节点分享)_22
-  - US美国(mibei77.com 米贝节点分享)_23
-  - US美国(mibei77.com 米贝节点分享)_24
-  - US美国(mibei77.com 米贝节点分享)_25
-  - DE德国(mibei77.com 米贝节点分享)_1
-  - DE德国(mibei77.com 米贝节点分享)_2
-  - DE德国(mibei77.com 米贝节点分享)_3
-  - DE德国(mibei77.com 米贝节点分享)_4
-  - DE德国(mibei77.com 米贝节点分享)_5
-  - DE德国(mibei77.com 米贝节点分享)_6
-  - DE德国(mibei77.com 米贝节点分享)_7
-  - DE德国(mibei77.com 米贝节点分享)_8
-  - DE德国(mibei77.com 米贝节点分享)_9
-  - DE德国(mibei77.com 米贝节点分享)_10
-  - DE德国(mibei77.com 米贝节点分享)_11
-  - FR法国(mibei77.com 米贝节点分享)
-  - FR法国(mibei77.com 米贝节点分享)_1
-  - FR法国(mibei77.com 米贝节点分享)_2
-  - KR韩国(mibei77.com 米贝节点分享)
-  - KR韩国(mibei77.com 米贝节点分享)_1
-  - KR韩国(mibei77.com 米贝节点分享)_2
-  - KR韩国(mibei77.com 米贝节点分享)_3
-  - KR韩国(mibei77.com 米贝节点分享)_4
-  - KR韩国(mibei77.com 米贝节点分享)_5
-  - KR韩国(mibei77.com 米贝节点分享)_6
-  - KR韩国(mibei77.com 米贝节点分享)_7
-  - KR韩国(mibei77.com 米贝节点分享)_8
-  - KR韩国(mibei77.com 米贝节点分享)_9
-  - KR韩国(mibei77.com 米贝节点分享)_10
-  - KR韩国(mibei77.com 米贝节点分享)_11
-  - KR韩国(mibei77.com 米贝节点分享)_12
-  - KR韩国(mibei77.com 米贝节点分享)_13
-  - KR韩国(mibei77.com 米贝节点分享)_14
-  - KR韩国(mibei77.com 米贝节点分享)_15
-  - KR韩国(mibei77.com 米贝节点分享)_16
-  - KR韩国(mibei77.com 米贝节点分享)_17
-  - KR韩国(mibei77.com 米贝节点分享)_18
-  - KR韩国(mibei77.com 米贝节点分享)_19
-  - KR韩国(mibei77.com 米贝节点分享)_20
-  - KR韩国(mibei77.com 米贝节点分享)_21
-  - KR韩国(mibei77.com 米贝节点分享)_22
-  - KR韩国(mibei77.com 米贝节点分享)_23
-  - KR韩国(mibei77.com 米贝节点分享)_24
-  - KR韩国(mibei77.com 米贝节点分享)_25
-  - KR韩国(mibei77.com 米贝节点分享)_26
-  - KR韩国(mibei77.com 米贝节点分享)_27
-  - KR韩国(mibei77.com 米贝节点分享)_28
-  - KR韩国(mibei77.com 米贝节点分享)_29
-  - KR韩国(mibei77.com 米贝节点分享)_30
-  - KR韩国(mibei77.com 米贝节点分享)_31
-  - KR韩国(mibei77.com 米贝节点分享)_32
-  - KR韩国(mibei77.com 米贝节点分享)_33
-  - KR韩国(mibei77.com 米贝节点分享)_34
-  - KR韩国(mibei77.com 米贝节点分享)_35
-  - CA加拿大(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_26
-  - US美国(mibei77.com 米贝节点分享)_27
-  - US美国(mibei77.com 米贝节点分享)_28
-  - US美国(mibei77.com 米贝节点分享)_29
-  - US美国(mibei77.com 米贝节点分享)_30
-  - US美国(mibei77.com 米贝节点分享)_31
-  - US美国(mibei77.com 米贝节点分享)_32
-  - US美国(mibei77.com 米贝节点分享)_33
-  - US美国(mibei77.com 米贝节点分享)_34
-  - US美国(mibei77.com 米贝节点分享)_35
-  - US美国(mibei77.com 米贝节点分享)_36
-  - US美国(mibei77.com 米贝节点分享)_37
-  - US美国(mibei77.com 米贝节点分享)_38
-  - US美国(mibei77.com 米贝节点分享)_39
-  - US美国(mibei77.com 米贝节点分享)_40
-  - US美国(mibei77.com 米贝节点分享)_41
-  - US美国(mibei77.com 米贝节点分享)_42
-  - US美国(mibei77.com 米贝节点分享)_43
-  - US美国(mibei77.com 米贝节点分享)_44
-  - US美国(mibei77.com 米贝节点分享)_45
-  - US美国(mibei77.com 米贝节点分享)_46
-  - US美国(mibei77.com 米贝节点分享)_47
-  - US美国(mibei77.com 米贝节点分享)_48
-  - US美国(mibei77.com 米贝节点分享)_49
-  - US美国(mibei77.com 米贝节点分享)_50
-  - US美国(mibei77.com 米贝节点分享)_51
-  - US美国(mibei77.com 米贝节点分享)_52
-  - US美国(mibei77.com 米贝节点分享)_53
-  - US美国(mibei77.com 米贝节点分享)_54
-  - US美国(mibei77.com 米贝节点分享)_55
-  - US美国(mibei77.com 米贝节点分享)_56
-  - US美国(mibei77.com 米贝节点分享)_57
-  - US美国(mibei77.com 米贝节点分享)_58
-  - US美国(mibei77.com 米贝节点分享)_59
-  - US美国(mibei77.com 米贝节点分享)_60
-  - US美国(mibei77.com 米贝节点分享)_61
-  - US美国(mibei77.com 米贝节点分享)_62
-  - US美国(mibei77.com 米贝节点分享)_63
-  - US美国(mibei77.com 米贝节点分享)_64
-  - US美国(mibei77.com 米贝节点分享)_65
-  - US美国(mibei77.com 米贝节点分享)_66
-  - US美国(mibei77.com 米贝节点分享)_67
-  - US美国(mibei77.com 米贝节点分享)_68
-  - US美国(mibei77.com 米贝节点分享)_69
-  - US美国(mibei77.com 米贝节点分享)_70
-  - US美国(mibei77.com 米贝节点分享)_71
-  - US美国(mibei77.com 米贝节点分享)_72
-  - US美国(mibei77.com 米贝节点分享)_73
-  - US美国(mibei77.com 米贝节点分享)_74
-  - US美国(mibei77.com 米贝节点分享)_75
-  - US美国(mibei77.com 米贝节点分享)_76
-  - US美国(mibei77.com 米贝节点分享)_77
-  - US美国(mibei77.com 米贝节点分享)_78
-  - US美国(mibei77.com 米贝节点分享)_79
-  - US美国(mibei77.com 米贝节点分享)_80
-  - US美国(mibei77.com 米贝节点分享)_81
-  - US美国(mibei77.com 米贝节点分享)_82
-  - US美国(mibei77.com 米贝节点分享)_83
-  - US美国(mibei77.com 米贝节点分享)_84
-  - US美国(mibei77.com 米贝节点分享)_85
-  - US美国(mibei77.com 米贝节点分享)_86
-  - US美国(mibei77.com 米贝节点分享)_87
-  - US美国(mibei77.com 米贝节点分享)_88
-  - US美国(mibei77.com 米贝节点分享)_89
-  - US美国(mibei77.com 米贝节点分享)_90
-  - US美国(mibei77.com 米贝节点分享)_91
-  - US美国(mibei77.com 米贝节点分享)_92
-  - US美国(mibei77.com 米贝节点分享)_93
-  - US美国(mibei77.com 米贝节点分享)_94
-  - US美国(mibei77.com 米贝节点分享)_95
-  - US美国(mibei77.com 米贝节点分享)_96
-  - US美国(mibei77.com 米贝节点分享)_97
-  - US美国(mibei77.com 米贝节点分享)_98
-  - US美国(mibei77.com 米贝节点分享)_99
-  - US美国(mibei77.com 米贝节点分享)_100
-  - US美国(mibei77.com 米贝节点分享)_101
-  - US美国(mibei77.com 米贝节点分享)_102
-  - US美国(mibei77.com 米贝节点分享)_103
-  - US美国(mibei77.com 米贝节点分享)_104
-  - US美国(mibei77.com 米贝节点分享)_105
-  - US美国(mibei77.com 米贝节点分享)_106
-  - US美国(mibei77.com 米贝节点分享)_107
-  - US美国(mibei77.com 米贝节点分享)_108
-  - US美国(mibei77.com 米贝节点分享)_109
-  - HK香港(mibei77.com 米贝节点分享)
-  - HK香港(mibei77.com 米贝节点分享)_1
-  - HK香港(mibei77.com 米贝节点分享)_2
-  - HK香港(mibei77.com 米贝节点分享)_3
-  - HK香港(mibei77.com 米贝节点分享)_4
-  - HK香港(mibei77.com 米贝节点分享)_5
-  - SG新加坡(mibei77.com 米贝节点分享)_1
-  - SG新加坡(mibei77.com 米贝节点分享)_2
-  - SG新加坡(mibei77.com 米贝节点分享)_3
-  - SG新加坡(mibei77.com 米贝节点分享)_4
-  - GB英国(mibei77.com 米贝节点分享)_1
-  - GB英国(mibei77.com 米贝节点分享)_2
-  - GB英国(mibei77.com 米贝节点分享)_3
-  - GB英国(mibei77.com 米贝节点分享)_4
-  - GB英国(mibei77.com 米贝节点分享)_5
-  - GB英国(mibei77.com 米贝节点分享)_6
-  - GB英国(mibei77.com 米贝节点分享)_7
-  - GB英国(mibei77.com 米贝节点分享)_8
-  - GB英国(mibei77.com 米贝节点分享)_9
-  - GB英国(mibei77.com 米贝节点分享)_10
-  - GB英国(mibei77.com 米贝节点分享)_11
-  - GB英国(mibei77.com 米贝节点分享)_12
-  - GB英国(mibei77.com 米贝节点分享)_13
-  - GB英国(mibei77.com 米贝节点分享)_14
-  - GB英国(mibei77.com 米贝节点分享)_15
-  - GB英国(mibei77.com 米贝节点分享)_16
-  - GB英国(mibei77.com 米贝节点分享)_17
-  - GB英国(mibei77.com 米贝节点分享)_18
-  - GB英国(mibei77.com 米贝节点分享)_19
-  - GB英国(mibei77.com 米贝节点分享)_20
-  - GB英国(mibei77.com 米贝节点分享)_21
-  - GB英国(mibei77.com 米贝节点分享)_22
-  - GB英国(mibei77.com 米贝节点分享)_23
-  - GB英国(mibei77.com 米贝节点分享)_24
-  - GB英国(mibei77.com 米贝节点分享)_25
-  - GB英国(mibei77.com 米贝节点分享)_26
-  - GB英国(mibei77.com 米贝节点分享)_27
-  - GB英国(mibei77.com 米贝节点分享)_28
-  - GB英国(mibei77.com 米贝节点分享)_29
-  - GB英国(mibei77.com 米贝节点分享)_30
-  - GB英国(mibei77.com 米贝节点分享)_31
-  - GB英国(mibei77.com 米贝节点分享)_32
-  - GB英国(mibei77.com 米贝节点分享)_33
-  - GB英国(mibei77.com 米贝节点分享)_34
-  - GB英国(mibei77.com 米贝节点分享)_35
-  - GB英国(mibei77.com 米贝节点分享)_36
-  - GB英国(mibei77.com 米贝节点分享)_37
-  - GB英国(mibei77.com 米贝节点分享)_38
-  - GB英国(mibei77.com 米贝节点分享)_39
-  - GB英国(mibei77.com 米贝节点分享)_40
-  - GB英国(mibei77.com 米贝节点分享)_41
-  - GB英国(mibei77.com 米贝节点分享)_42
-  - GB英国(mibei77.com 米贝节点分享)_43
-  - GB英国(mibei77.com 米贝节点分享)_44
-  - GB英国(mibei77.com 米贝节点分享)_45
-  - GB英国(mibei77.com 米贝节点分享)_46
-  - GB英国(mibei77.com 米贝节点分享)_47
-  - GB英国(mibei77.com 米贝节点分享)_48
-  - GB英国(mibei77.com 米贝节点分享)_49
-  - GB英国(mibei77.com 米贝节点分享)_50
-  - GB英国(mibei77.com 米贝节点分享)_51
-  - GB英国(mibei77.com 米贝节点分享)_52
-  - GB英国(mibei77.com 米贝节点分享)_53
-  - GB英国(mibei77.com 米贝节点分享)_54
-  - GB英国(mibei77.com 米贝节点分享)_55
-  - GB英国(mibei77.com 米贝节点分享)_56
-  - GB英国(mibei77.com 米贝节点分享)_57
-  - GB英国(mibei77.com 米贝节点分享)_58
-  - HK香港(mibei77.com 米贝节点分享)_6
+  - 🇰🇷KR韓國丨yoyapai.com
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_1
+  - 🇰🇷KR韓國丨yoyapai.com_2
+  - 🇰🇷KR韓國丨yoyapai.com_3
+  - 🇳🇱NL荷蘭丨yoyapai.com
+  - 🇨🇭CH臺灣丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_4
+  - 亞太地區
+  - 🇳🇱NL荷蘭丨yoyapai.com_1
+  - 🇺🇸 US美國節點
+  - 亞太地區_1
+  - 英國
+  - 美國
+  - 英國_1
+  - 英國_2
+  - 英國_3
+  - 美國_1
+  - 🇰🇷KR韓國丨yoyapai.com_5
+  - 德國
+  - 德國_1
+  - 亞太地區_2
+  - 英國_4
+  - 英國_5
+  - 🇰🇷KR韓國丨yoyapai.com_6
+  - 英國_6
+  - 英國_7
+  - 🇰🇷KR韓國丨yoyapai.com_7
+  - 🇺🇸 US美國
+  - 英國節點
+  - 英國_8
+  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
+  - 英國節點_1
+  - 🇺🇸 US美國節點_1
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com
+  - 美國節點
+  - 美國_2
+  - 荷蘭節點丨yoyapai.com
+  - 美國節點_1
+  - 英國_9
+  - 英國_10
+  - 英國_11
+  - 🇬🇧 GB英國
+  - 🇬🇧 GB英国
+  - 英國節點_2
+  - 🇱🇹LT立陶宛丨yoyapai.com
+  - 泰國節點丨yoyapai.com
+  - 🇬🇧 英國
+  - 英國_12
+  - 🇺🇸 US美國丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_8
+  - 英國_13
+  - 🇬🇧 GB英國_1
+  - 美國節點_2
+  - 美國_3
+  - 德國_2
+  - 英國_14
+  - 🇸🇪SE瑞典節點丨yoyapai.com
+  - 英國_15
+  - 泰國節點丨yoyapai.com_1
+  - 瑞士節點丨yoyapai.com
+  - 新加坡丨yoyapai.com
+  - 美國_4
+  - 英國_16
+  - 🇳🇱NL荷蘭丨yoyapai.com_2
+  - 🇳🇱NL荷蘭丨yoyapai.com_3
+  - 🇳🇱NL荷蘭丨yoyapai.com_4
+  - 英國_17
+  - 美國丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 瑞士節點丨yoyapai.com_1
+  - 🇰🇷KR韓國丨yoyapai.com_9
+  - 奧地利節點丨yoyapai.com
+  - 西班牙節點🇪🇸ES丨yoyapai.com
+  - 瑞典丨yoyapai.com
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 瑞典節點丨yoyapai.com
+  - 丹麥節點🇩🇰DK丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_7
+  - 🇭🇰 HK香港
+  - 🇳🇱NL荷蘭丨yoyapai.com_8
+  - 捷克節點丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_9
+  - 法國節點丨yoyapai.com
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_2
+  - 拉脫維亞丨yoyapai.com
+  - 俄羅斯節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_10
+  - 俄羅斯節點丨yoyapai.com_1
+  - 俄羅斯節點丨yoyapai.com_2
+  - 荷蘭節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_10
+  - 瑞典節點丨yoyapai.com_1
+  - 意大利丨yoyapai.com
+  - 瑞士節點丨yoyapai.com_2
+  - 瑞典節點丨yoyapai.com_2
+  - 匈牙利節點丨yoyapai.com
+  - 意大利節點🇮🇹IT丨yoyapai.com
+  - 立陶宛節點🇱🇹LT丨yoyapai.com
+  - 瑞典節點丨yoyapai.com_3
+  - 奧地利節點丨yoyapai.com_1
+  - 🇸🇪SE瑞典丨yoyapai.com
+  - 🇸🇪SE瑞典節點丨yoyapai.com_1
+  - 🇧🇪BE比利時丨yoyapai.com
+  - 🇩🇰DK丹麥丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_11
+  - 荷蘭節點丨yoyapai.com_2
+  - 🇳🇱NL荷蘭丨yoyapai.com_12
+  - 🇸🇪SE瑞典節點丨yoyapai.com_2
+  - 🇫🇷FR法國丨yoyapai.com
+  - 美國節點丨yoyapai.com
+  - 美國丨yoyapai.com_1
+  - 美國丨yoyapai.com_2
+  - 美國丨yoyapai.com_3
+  - 🇪🇪EE愛沙尼亞丨yoyapai.com
+  - 🇺🇸 US美国丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_13
+  - 亞太地區_3
+  - 美國_5
+  - 亞太地區_4
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -4000,239 +2216,128 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - DE德国(mibei77.com 米贝节点分享)
-  - GB英国(mibei77.com 米贝节点分享)
-  - SG新加坡(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_1
-  - US美国(mibei77.com 米贝节点分享)_2
-  - US美国(mibei77.com 米贝节点分享)_3
-  - US美国(mibei77.com 米贝节点分享)_4
-  - US美国(mibei77.com 米贝节点分享)_5
-  - US美国(mibei77.com 米贝节点分享)_6
-  - US美国(mibei77.com 米贝节点分享)_7
-  - US美国(mibei77.com 米贝节点分享)_8
-  - US美国(mibei77.com 米贝节点分享)_9
-  - US美国(mibei77.com 米贝节点分享)_10
-  - US美国(mibei77.com 米贝节点分享)_11
-  - US美国(mibei77.com 米贝节点分享)_12
-  - US美国(mibei77.com 米贝节点分享)_13
-  - US美国(mibei77.com 米贝节点分享)_14
-  - US美国(mibei77.com 米贝节点分享)_15
-  - US美国(mibei77.com 米贝节点分享)_16
-  - US美国(mibei77.com 米贝节点分享)_17
-  - US美国(mibei77.com 米贝节点分享)_18
-  - US美国(mibei77.com 米贝节点分享)_19
-  - US美国(mibei77.com 米贝节点分享)_20
-  - US美国(mibei77.com 米贝节点分享)_21
-  - US美国(mibei77.com 米贝节点分享)_22
-  - US美国(mibei77.com 米贝节点分享)_23
-  - US美国(mibei77.com 米贝节点分享)_24
-  - US美国(mibei77.com 米贝节点分享)_25
-  - DE德国(mibei77.com 米贝节点分享)_1
-  - DE德国(mibei77.com 米贝节点分享)_2
-  - DE德国(mibei77.com 米贝节点分享)_3
-  - DE德国(mibei77.com 米贝节点分享)_4
-  - DE德国(mibei77.com 米贝节点分享)_5
-  - DE德国(mibei77.com 米贝节点分享)_6
-  - DE德国(mibei77.com 米贝节点分享)_7
-  - DE德国(mibei77.com 米贝节点分享)_8
-  - DE德国(mibei77.com 米贝节点分享)_9
-  - DE德国(mibei77.com 米贝节点分享)_10
-  - DE德国(mibei77.com 米贝节点分享)_11
-  - FR法国(mibei77.com 米贝节点分享)
-  - FR法国(mibei77.com 米贝节点分享)_1
-  - FR法国(mibei77.com 米贝节点分享)_2
-  - KR韩国(mibei77.com 米贝节点分享)
-  - KR韩国(mibei77.com 米贝节点分享)_1
-  - KR韩国(mibei77.com 米贝节点分享)_2
-  - KR韩国(mibei77.com 米贝节点分享)_3
-  - KR韩国(mibei77.com 米贝节点分享)_4
-  - KR韩国(mibei77.com 米贝节点分享)_5
-  - KR韩国(mibei77.com 米贝节点分享)_6
-  - KR韩国(mibei77.com 米贝节点分享)_7
-  - KR韩国(mibei77.com 米贝节点分享)_8
-  - KR韩国(mibei77.com 米贝节点分享)_9
-  - KR韩国(mibei77.com 米贝节点分享)_10
-  - KR韩国(mibei77.com 米贝节点分享)_11
-  - KR韩国(mibei77.com 米贝节点分享)_12
-  - KR韩国(mibei77.com 米贝节点分享)_13
-  - KR韩国(mibei77.com 米贝节点分享)_14
-  - KR韩国(mibei77.com 米贝节点分享)_15
-  - KR韩国(mibei77.com 米贝节点分享)_16
-  - KR韩国(mibei77.com 米贝节点分享)_17
-  - KR韩国(mibei77.com 米贝节点分享)_18
-  - KR韩国(mibei77.com 米贝节点分享)_19
-  - KR韩国(mibei77.com 米贝节点分享)_20
-  - KR韩国(mibei77.com 米贝节点分享)_21
-  - KR韩国(mibei77.com 米贝节点分享)_22
-  - KR韩国(mibei77.com 米贝节点分享)_23
-  - KR韩国(mibei77.com 米贝节点分享)_24
-  - KR韩国(mibei77.com 米贝节点分享)_25
-  - KR韩国(mibei77.com 米贝节点分享)_26
-  - KR韩国(mibei77.com 米贝节点分享)_27
-  - KR韩国(mibei77.com 米贝节点分享)_28
-  - KR韩国(mibei77.com 米贝节点分享)_29
-  - KR韩国(mibei77.com 米贝节点分享)_30
-  - KR韩国(mibei77.com 米贝节点分享)_31
-  - KR韩国(mibei77.com 米贝节点分享)_32
-  - KR韩国(mibei77.com 米贝节点分享)_33
-  - KR韩国(mibei77.com 米贝节点分享)_34
-  - KR韩国(mibei77.com 米贝节点分享)_35
-  - CA加拿大(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享)_26
-  - US美国(mibei77.com 米贝节点分享)_27
-  - US美国(mibei77.com 米贝节点分享)_28
-  - US美国(mibei77.com 米贝节点分享)_29
-  - US美国(mibei77.com 米贝节点分享)_30
-  - US美国(mibei77.com 米贝节点分享)_31
-  - US美国(mibei77.com 米贝节点分享)_32
-  - US美国(mibei77.com 米贝节点分享)_33
-  - US美国(mibei77.com 米贝节点分享)_34
-  - US美国(mibei77.com 米贝节点分享)_35
-  - US美国(mibei77.com 米贝节点分享)_36
-  - US美国(mibei77.com 米贝节点分享)_37
-  - US美国(mibei77.com 米贝节点分享)_38
-  - US美国(mibei77.com 米贝节点分享)_39
-  - US美国(mibei77.com 米贝节点分享)_40
-  - US美国(mibei77.com 米贝节点分享)_41
-  - US美国(mibei77.com 米贝节点分享)_42
-  - US美国(mibei77.com 米贝节点分享)_43
-  - US美国(mibei77.com 米贝节点分享)_44
-  - US美国(mibei77.com 米贝节点分享)_45
-  - US美国(mibei77.com 米贝节点分享)_46
-  - US美国(mibei77.com 米贝节点分享)_47
-  - US美国(mibei77.com 米贝节点分享)_48
-  - US美国(mibei77.com 米贝节点分享)_49
-  - US美国(mibei77.com 米贝节点分享)_50
-  - US美国(mibei77.com 米贝节点分享)_51
-  - US美国(mibei77.com 米贝节点分享)_52
-  - US美国(mibei77.com 米贝节点分享)_53
-  - US美国(mibei77.com 米贝节点分享)_54
-  - US美国(mibei77.com 米贝节点分享)_55
-  - US美国(mibei77.com 米贝节点分享)_56
-  - US美国(mibei77.com 米贝节点分享)_57
-  - US美国(mibei77.com 米贝节点分享)_58
-  - US美国(mibei77.com 米贝节点分享)_59
-  - US美国(mibei77.com 米贝节点分享)_60
-  - US美国(mibei77.com 米贝节点分享)_61
-  - US美国(mibei77.com 米贝节点分享)_62
-  - US美国(mibei77.com 米贝节点分享)_63
-  - US美国(mibei77.com 米贝节点分享)_64
-  - US美国(mibei77.com 米贝节点分享)_65
-  - US美国(mibei77.com 米贝节点分享)_66
-  - US美国(mibei77.com 米贝节点分享)_67
-  - US美国(mibei77.com 米贝节点分享)_68
-  - US美国(mibei77.com 米贝节点分享)_69
-  - US美国(mibei77.com 米贝节点分享)_70
-  - US美国(mibei77.com 米贝节点分享)_71
-  - US美国(mibei77.com 米贝节点分享)_72
-  - US美国(mibei77.com 米贝节点分享)_73
-  - US美国(mibei77.com 米贝节点分享)_74
-  - US美国(mibei77.com 米贝节点分享)_75
-  - US美国(mibei77.com 米贝节点分享)_76
-  - US美国(mibei77.com 米贝节点分享)_77
-  - US美国(mibei77.com 米贝节点分享)_78
-  - US美国(mibei77.com 米贝节点分享)_79
-  - US美国(mibei77.com 米贝节点分享)_80
-  - US美国(mibei77.com 米贝节点分享)_81
-  - US美国(mibei77.com 米贝节点分享)_82
-  - US美国(mibei77.com 米贝节点分享)_83
-  - US美国(mibei77.com 米贝节点分享)_84
-  - US美国(mibei77.com 米贝节点分享)_85
-  - US美国(mibei77.com 米贝节点分享)_86
-  - US美国(mibei77.com 米贝节点分享)_87
-  - US美国(mibei77.com 米贝节点分享)_88
-  - US美国(mibei77.com 米贝节点分享)_89
-  - US美国(mibei77.com 米贝节点分享)_90
-  - US美国(mibei77.com 米贝节点分享)_91
-  - US美国(mibei77.com 米贝节点分享)_92
-  - US美国(mibei77.com 米贝节点分享)_93
-  - US美国(mibei77.com 米贝节点分享)_94
-  - US美国(mibei77.com 米贝节点分享)_95
-  - US美国(mibei77.com 米贝节点分享)_96
-  - US美国(mibei77.com 米贝节点分享)_97
-  - US美国(mibei77.com 米贝节点分享)_98
-  - US美国(mibei77.com 米贝节点分享)_99
-  - US美国(mibei77.com 米贝节点分享)_100
-  - US美国(mibei77.com 米贝节点分享)_101
-  - US美国(mibei77.com 米贝节点分享)_102
-  - US美国(mibei77.com 米贝节点分享)_103
-  - US美国(mibei77.com 米贝节点分享)_104
-  - US美国(mibei77.com 米贝节点分享)_105
-  - US美国(mibei77.com 米贝节点分享)_106
-  - US美国(mibei77.com 米贝节点分享)_107
-  - US美国(mibei77.com 米贝节点分享)_108
-  - US美国(mibei77.com 米贝节点分享)_109
-  - HK香港(mibei77.com 米贝节点分享)
-  - HK香港(mibei77.com 米贝节点分享)_1
-  - HK香港(mibei77.com 米贝节点分享)_2
-  - HK香港(mibei77.com 米贝节点分享)_3
-  - HK香港(mibei77.com 米贝节点分享)_4
-  - HK香港(mibei77.com 米贝节点分享)_5
-  - SG新加坡(mibei77.com 米贝节点分享)_1
-  - SG新加坡(mibei77.com 米贝节点分享)_2
-  - SG新加坡(mibei77.com 米贝节点分享)_3
-  - SG新加坡(mibei77.com 米贝节点分享)_4
-  - GB英国(mibei77.com 米贝节点分享)_1
-  - GB英国(mibei77.com 米贝节点分享)_2
-  - GB英国(mibei77.com 米贝节点分享)_3
-  - GB英国(mibei77.com 米贝节点分享)_4
-  - GB英国(mibei77.com 米贝节点分享)_5
-  - GB英国(mibei77.com 米贝节点分享)_6
-  - GB英国(mibei77.com 米贝节点分享)_7
-  - GB英国(mibei77.com 米贝节点分享)_8
-  - GB英国(mibei77.com 米贝节点分享)_9
-  - GB英国(mibei77.com 米贝节点分享)_10
-  - GB英国(mibei77.com 米贝节点分享)_11
-  - GB英国(mibei77.com 米贝节点分享)_12
-  - GB英国(mibei77.com 米贝节点分享)_13
-  - GB英国(mibei77.com 米贝节点分享)_14
-  - GB英国(mibei77.com 米贝节点分享)_15
-  - GB英国(mibei77.com 米贝节点分享)_16
-  - GB英国(mibei77.com 米贝节点分享)_17
-  - GB英国(mibei77.com 米贝节点分享)_18
-  - GB英国(mibei77.com 米贝节点分享)_19
-  - GB英国(mibei77.com 米贝节点分享)_20
-  - GB英国(mibei77.com 米贝节点分享)_21
-  - GB英国(mibei77.com 米贝节点分享)_22
-  - GB英国(mibei77.com 米贝节点分享)_23
-  - GB英国(mibei77.com 米贝节点分享)_24
-  - GB英国(mibei77.com 米贝节点分享)_25
-  - GB英国(mibei77.com 米贝节点分享)_26
-  - GB英国(mibei77.com 米贝节点分享)_27
-  - GB英国(mibei77.com 米贝节点分享)_28
-  - GB英国(mibei77.com 米贝节点分享)_29
-  - GB英国(mibei77.com 米贝节点分享)_30
-  - GB英国(mibei77.com 米贝节点分享)_31
-  - GB英国(mibei77.com 米贝节点分享)_32
-  - GB英国(mibei77.com 米贝节点分享)_33
-  - GB英国(mibei77.com 米贝节点分享)_34
-  - GB英国(mibei77.com 米贝节点分享)_35
-  - GB英国(mibei77.com 米贝节点分享)_36
-  - GB英国(mibei77.com 米贝节点分享)_37
-  - GB英国(mibei77.com 米贝节点分享)_38
-  - GB英国(mibei77.com 米贝节点分享)_39
-  - GB英国(mibei77.com 米贝节点分享)_40
-  - GB英国(mibei77.com 米贝节点分享)_41
-  - GB英国(mibei77.com 米贝节点分享)_42
-  - GB英国(mibei77.com 米贝节点分享)_43
-  - GB英国(mibei77.com 米贝节点分享)_44
-  - GB英国(mibei77.com 米贝节点分享)_45
-  - GB英国(mibei77.com 米贝节点分享)_46
-  - GB英国(mibei77.com 米贝节点分享)_47
-  - GB英国(mibei77.com 米贝节点分享)_48
-  - GB英国(mibei77.com 米贝节点分享)_49
-  - GB英国(mibei77.com 米贝节点分享)_50
-  - GB英国(mibei77.com 米贝节点分享)_51
-  - GB英国(mibei77.com 米贝节点分享)_52
-  - GB英国(mibei77.com 米贝节点分享)_53
-  - GB英国(mibei77.com 米贝节点分享)_54
-  - GB英国(mibei77.com 米贝节点分享)_55
-  - GB英国(mibei77.com 米贝节点分享)_56
-  - GB英国(mibei77.com 米贝节点分享)_57
-  - GB英国(mibei77.com 米贝节点分享)_58
-  - HK香港(mibei77.com 米贝节点分享)_6
+  - 🇰🇷KR韓國丨yoyapai.com
+  - 🇸🇬SG新加坡丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_1
+  - 🇰🇷KR韓國丨yoyapai.com_2
+  - 🇰🇷KR韓國丨yoyapai.com_3
+  - 🇳🇱NL荷蘭丨yoyapai.com
+  - 🇨🇭CH臺灣丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_4
+  - 亞太地區
+  - 🇳🇱NL荷蘭丨yoyapai.com_1
+  - 🇺🇸 US美國節點
+  - 亞太地區_1
+  - 英國
+  - 美國
+  - 英國_1
+  - 英國_2
+  - 英國_3
+  - 美國_1
+  - 🇰🇷KR韓國丨yoyapai.com_5
+  - 德國
+  - 德國_1
+  - 亞太地區_2
+  - 英國_4
+  - 英國_5
+  - 🇰🇷KR韓國丨yoyapai.com_6
+  - 英國_6
+  - 英國_7
+  - 🇰🇷KR韓國丨yoyapai.com_7
+  - 🇺🇸 US美國
+  - 英國節點
+  - 英國_8
+  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
+  - 英國節點_1
+  - 🇺🇸 US美國節點_1
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com
+  - 美國節點
+  - 美國_2
+  - 荷蘭節點丨yoyapai.com
+  - 美國節點_1
+  - 英國_9
+  - 英國_10
+  - 英國_11
+  - 🇬🇧 GB英國
+  - 🇬🇧 GB英国
+  - 英國節點_2
+  - 🇱🇹LT立陶宛丨yoyapai.com
+  - 泰國節點丨yoyapai.com
+  - 🇬🇧 英國
+  - 英國_12
+  - 🇺🇸 US美國丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_8
+  - 英國_13
+  - 🇬🇧 GB英國_1
+  - 美國節點_2
+  - 美國_3
+  - 德國_2
+  - 英國_14
+  - 🇸🇪SE瑞典節點丨yoyapai.com
+  - 英國_15
+  - 泰國節點丨yoyapai.com_1
+  - 瑞士節點丨yoyapai.com
+  - 新加坡丨yoyapai.com
+  - 美國_4
+  - 英國_16
+  - 🇳🇱NL荷蘭丨yoyapai.com_2
+  - 🇳🇱NL荷蘭丨yoyapai.com_3
+  - 🇳🇱NL荷蘭丨yoyapai.com_4
+  - 英國_17
+  - 美國丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 瑞士節點丨yoyapai.com_1
+  - 🇰🇷KR韓國丨yoyapai.com_9
+  - 奧地利節點丨yoyapai.com
+  - 西班牙節點🇪🇸ES丨yoyapai.com
+  - 瑞典丨yoyapai.com
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 瑞典節點丨yoyapai.com
+  - 丹麥節點🇩🇰DK丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_7
+  - 🇭🇰 HK香港
+  - 🇳🇱NL荷蘭丨yoyapai.com_8
+  - 捷克節點丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_9
+  - 法國節點丨yoyapai.com
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_2
+  - 拉脫維亞丨yoyapai.com
+  - 俄羅斯節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_10
+  - 俄羅斯節點丨yoyapai.com_1
+  - 俄羅斯節點丨yoyapai.com_2
+  - 荷蘭節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_10
+  - 瑞典節點丨yoyapai.com_1
+  - 意大利丨yoyapai.com
+  - 瑞士節點丨yoyapai.com_2
+  - 瑞典節點丨yoyapai.com_2
+  - 匈牙利節點丨yoyapai.com
+  - 意大利節點🇮🇹IT丨yoyapai.com
+  - 立陶宛節點🇱🇹LT丨yoyapai.com
+  - 瑞典節點丨yoyapai.com_3
+  - 奧地利節點丨yoyapai.com_1
+  - 🇸🇪SE瑞典丨yoyapai.com
+  - 🇸🇪SE瑞典節點丨yoyapai.com_1
+  - 🇧🇪BE比利時丨yoyapai.com
+  - 🇩🇰DK丹麥丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_11
+  - 荷蘭節點丨yoyapai.com_2
+  - 🇳🇱NL荷蘭丨yoyapai.com_12
+  - 🇸🇪SE瑞典節點丨yoyapai.com_2
+  - 🇫🇷FR法國丨yoyapai.com
+  - 美國節點丨yoyapai.com
+  - 美國丨yoyapai.com_1
+  - 美國丨yoyapai.com_2
+  - 美國丨yoyapai.com_3
+  - 🇪🇪EE愛沙尼亞丨yoyapai.com
+  - 🇺🇸 US美国丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_13
+  - 亞太地區_3
+  - 美國_5
+  - 亞太地區_4
   type: select
 rule-providers:
   Apple:
